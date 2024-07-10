@@ -1,3 +1,4 @@
+#这个文件远程的镜像名为“namespace_name:tag”形式
 curlimages/curl:8.8.0
 registry.k8s.io/ingress-nginx/controller:v1.10.1
 registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.4.1
