@@ -1,4 +1,4 @@
-name: Docker
+name: Docker_c_x64
 
 on:
   workflow_dispatch:
