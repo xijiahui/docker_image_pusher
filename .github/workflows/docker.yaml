@@ -91,11 +91,14 @@ jobs:
             
             echo "docker tag $image $new_image_x64"
             docker tag $image $new_image_x64
+            echo "docker tag $image $new_image_x64_TC"
             docker tag $image $new_image_x64_TC
+            echo "docker rmi $image"
             docker rmi $image
             
             echo "docker push $new_image_x64"
             docker push $new_image_x64
+            echo "docker push $new_image_x64_TC"
             docker push $new_image_x64_TC
             
             echo "docker pull --platform arm64 $line"
@@ -107,11 +110,14 @@ jobs:
             
             echo "docker tag $image $new_image_arm64"
             docker tag $image $new_image_arm64
+            echo "docker tag $image $new_image_arm64_TC"
             docker tag $image $new_image_arm64_TC
+            echo "docker rmi $image"
             docker rmi $image
             
             echo "docker push $new_image_arm64"
             docker push $new_image_arm64
+            echo "docker push $new_image_arm64_TC"
             docker push $new_image_arm64_TC
             
             docker manifest create $new_image $new_image_arm64 $new_image_x64
@@ -127,6 +133,7 @@ jobs:
             echo "开始清理磁盘空间"
             echo "=============================================================================="
             df -hT
+            echo "------------------------------------------------------------------------------"
             docker images
             echo "=============================================================================="
             docker rmi $new_image_arm64
@@ -136,6 +143,7 @@ jobs:
             echo "磁盘空间清理完毕"
             echo "=============================================================================="
             df -hT
+            echo "------------------------------------------------------------------------------"
             docker images
             echo "=============================================================================="     
             
