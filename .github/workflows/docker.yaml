@@ -92,6 +92,7 @@ jobs:
             echo "docker tag $image $new_image_x64"
             docker tag $image $new_image_x64
             docker tag $image $new_image_x64_TC
+            docker rmi $image
             
             echo "docker push $new_image_x64"
             docker push $new_image_x64
@@ -107,6 +108,7 @@ jobs:
             echo "docker tag $image $new_image_arm64"
             docker tag $image $new_image_arm64
             docker tag $image $new_image_arm64_TC
+            docker rmi $image
             
             echo "docker push $new_image_arm64"
             docker push $new_image_arm64
@@ -125,8 +127,8 @@ jobs:
             echo "开始清理磁盘空间"
             echo "=============================================================================="
             df -hT
+            docker images
             echo "=============================================================================="
-            docker rmi $image
             docker rmi $new_image_arm64
             docker rmi $new_image_x64
             docker rmi $new_image_arm64_TC
@@ -134,6 +136,7 @@ jobs:
             echo "磁盘空间清理完毕"
             echo "=============================================================================="
             df -hT
+            docker images
             echo "=============================================================================="     
             
         done < images.txt
