@@ -1,3 +1,4 @@
+#这个文件远程的镜像名为“name:tag”形式，只拉取x64镜像
 xijiahui/oracle_database:18.3.0-ee
 xijiahui/oracle_database:12.1.0.2-ee
 xijiahui/oracle_database:12.2.0.1-ee
