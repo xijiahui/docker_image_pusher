@@ -1,10 +1,25 @@
---platform=linux/amd64 postgres:14.12
---platform=linux/arm64 postgres:14.12
---platform=linux/amd64 postgres:15.7
---platform=linux/arm64 postgres:15.7
---platform=linux/amd64 postgres:16.3
---platform=linux/arm64 postgres:16.3
---platform=linux/amd64 mysql:8.0.38
---platform=linux/arm64 mysql:8.0.38
---platform=linux/amd64 mysql:8.4.1
---platform=linux/arm64 mysql:8.4.1
+#--platform=linux/amd64 postgres:14.12
+#--platform=linux/arm64 postgres:14.12
+#--platform=linux/amd64 postgres:15.7
+#--platform=linux/arm64 postgres:15.7
+#--platform=linux/amd64 postgres:16.3
+#--platform=linux/arm64 postgres:16.3
+#--platform=linux/amd64 mysql:8.0.38
+#--platform=linux/arm64 mysql:8.0.38
+#--platform=linux/amd64 mysql:8.4.1
+#--platform=linux/arm64 mysql:8.4.1
+--platform=linux/amd64 tomcat:9.0.91-jre8
+--platform=linux/arm64 tomcat:9.0.91-jre8
+--platform=linux/amd64 tomcat:8.5.100-jre8
+--platform=linux/arm64 tomcat:8.5.100-jre8
+--platform=linux/amd64 apache/skywalking-java-agent:9.2.0-java8
+--platform=linux/arm64 apache/skywalking-java-agent:9.2.0-java8
+--platform=linux/amd64 redis:7.2.5
+--platform=linux/arm64 redis:7.2.5
+--platform=linux/amd64 nacos/nacos-server:v2.3.2-slim
+--platform=linux/arm64 nacos/nacos-server:v2.3.2-slim
+--platform=linux/amd64 minio/minio:RELEASE.2024-07-04T14-25-45Z
+--platform=linux/arm64 minio/minio:RELEASE.2024-07-04T14-25-45Z
+xijiahui/oracle_database:18.3.0-ee
+xijiahui/oracle_database:12.2.0.1-ee
+xijiahui/oracle_database:12.1.0.2-ee
