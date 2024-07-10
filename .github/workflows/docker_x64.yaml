@@ -79,8 +79,8 @@ jobs:
             # 将@sha256:等字符删除
             image_name_tag="${image_name_tag%%@*}"
             
-            new_image="$ALIYUN_REGISTRY/$ALIYUN_NAME_SPACE/image_name_tag"
-            new_image_TC="$TENCENT_REGISTRY/$TENCENT_NAME_SPACE/image_name_tag"
+            new_image="$ALIYUN_REGISTRY/$ALIYUN_NAME_SPACE/$image_name_tag"
+            new_image_TC="$TENCENT_REGISTRY/$TENCENT_NAME_SPACE/$image_name_tag"
             
             echo "docker pull --platform=amd64 $line"
             docker pull --platform=amd64 $line
