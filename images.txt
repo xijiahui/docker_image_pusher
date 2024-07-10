@@ -1,25 +1,37 @@
-#--platform=linux/amd64 postgres:14.12
-#--platform=linux/arm64 postgres:14.12
-#--platform=linux/amd64 postgres:15.7
-#--platform=linux/arm64 postgres:15.7
-#--platform=linux/amd64 postgres:16.3
-#--platform=linux/arm64 postgres:16.3
-#--platform=linux/amd64 mysql:8.0.38
-#--platform=linux/arm64 mysql:8.0.38
-#--platform=linux/amd64 mysql:8.4.1
-#--platform=linux/arm64 mysql:8.4.1
---platform=linux/amd64 tomcat:9.0.91-jre8
---platform=linux/arm64 tomcat:9.0.91-jre8
---platform=linux/amd64 tomcat:8.5.100-jre8
---platform=linux/arm64 tomcat:8.5.100-jre8
---platform=linux/amd64 apache/skywalking-java-agent:9.2.0-java8
---platform=linux/arm64 apache/skywalking-java-agent:9.2.0-java8
---platform=linux/amd64 redis:7.2.5
---platform=linux/arm64 redis:7.2.5
---platform=linux/amd64 nacos/nacos-server:v2.3.2-slim
---platform=linux/arm64 nacos/nacos-server:v2.3.2-slim
---platform=linux/amd64 minio/minio:RELEASE.2024-07-04T14-25-45Z
---platform=linux/arm64 minio/minio:RELEASE.2024-07-04T14-25-45Z
-xijiahui/oracle_database:18.3.0-ee
-xijiahui/oracle_database:12.2.0.1-ee
-xijiahui/oracle_database:12.1.0.2-ee
+opengauss/opengauss:5.0.0
+mysql:8.0.38
+mysql:8.4.1
+postgres:16.3
+postgres:15.7
+postgres:14.12
+phpmyadmin:5.2.1
+dpage/pgadmin4:8.9
+openjdk:8-jre-slim
+nacos/nacos-server:v2.3.2-slim
+apache/skywalking-java-agent:9.2.0-java8
+redis:7.2.5
+minio/minio:RELEASE.2024-07-04T14-25-45Z
+tomcat:9.0.91-jre8
+tomcat:8.5.100-jre8
+nginx:1.27.0
+redislabs/redisinsight:2.52
+rabbitmq:3.13.4-management
+apache/skywalking-oap-server:10.0.1
+apache/skywalking-ui:10.0.1
+grafana/grafana:9.5.20
+prom/prometheus:v2.45.6
+flannel/flannel:v0.25.4
+flannel/flannel-cni-plugin:v1.5.1-flannel1
+docker.elastic.co/elasticsearch/elasticsearch:8.14.2
+docker.elastic.co/beats/filebeat:8.14.2
+docker.elastic.co/kibana/kibana:8.14.2
+docker.elastic.co/logstash/logstash:8.14.2
+registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
+registry.k8s.io/kube-apiserver:v1.30.2
+registry.k8s.io/kube-controller-manager:v1.30.2
+registry.k8s.io/kube-proxy:v1.30.2
+registry.k8s.io/kube-scheduler:v1.30.2
+registry.k8s.io/coredns/coredns:v1.11.1
+registry.k8s.io/pause:3.9
+registry.k8s.io/etcd:3.5.12-0
+registry.k8s.io/metrics-server/metrics-server:v0.7.1
