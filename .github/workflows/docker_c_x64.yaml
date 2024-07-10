@@ -11,7 +11,10 @@ env:
   ALIYUN_NAME_SPACE: "${{ secrets.ALIYUN_NAME_SPACE }}"
   ALIYUN_REGISTRY_USER: "${{ secrets.ALIYUN_REGISTRY_USER }}"
   ALIYUN_REGISTRY_PASSWORD: "${{ secrets.ALIYUN_REGISTRY_PASSWORD }}"
-
+  TENCENT_REGISTRY: "${{ secrets.TENCENT_REGISTRY }}"
+  TENCENT_NAME_SPACE: "${{ secrets.TENCENT_NAME_SPACE }}"
+  TENCENT_REGISTRY_USER: "${{ secrets.TENCENT_REGISTRY_USER }}"
+  TENCENT_REGISTRY_PASSWORD: "${{ secrets.TENCENT_REGISTRY_PASSWORD }}"
 jobs:
 
   build:
@@ -58,6 +61,7 @@ jobs:
     - name: Build and push image Aliyun
       run: |
         docker login -u $ALIYUN_REGISTRY_USER -p $ALIYUN_REGISTRY_PASSWORD $ALIYUN_REGISTRY
+        docker login -u $TENCENT_REGISTRY_USER -p $TENCENT_REGISTRY_PASSWORD $TENCENT_REGISTRY
         while IFS= read -r line || [ -n "$line" ]; do
             # 忽略空行与注释
             [[ -z "$line" ]] && continue
@@ -77,18 +81,26 @@ jobs:
             
             tag_x="_"
             new_image="$ALIYUN_REGISTRY/$ALIYUN_NAME_SPACE/$name_space$tag_x$image_name_tag"
+            new_image_TC="$TENCENT_REGISTRY/$TENCENT_NAME_SPACE/$name_space$tag_x$image_name_tag"
             
             echo "docker pull --platform=amd64 $line"
             docker pull --platform=amd64 $line
             
             tag_suffix_x64="_x64"
             new_image_x64="$new_image$tag_suffix_x64"
+            new_image_x64_TC="$new_image_TC$tag_suffix_x64"
             
             echo "docker tag $image $new_image_x64"
             docker tag $image $new_image_x64
+
+            echo "docker tag $image $new_image_x64_TC"
+            docker tag $image $new_image_x64_TC
             
             echo "docker push $new_image_x64"
             docker push $new_image_x64
+
+            echo "docker push $new_image_x64_TC"
+            docker push $new_image_x64_TC
           
             echo "开始清理磁盘空间"
             echo "=============================================================================="
@@ -96,6 +108,7 @@ jobs:
             echo "=============================================================================="
             docker rmi $image
             docker rmi $new_image_x64
+            docker rmi $new_image_x64_TC
             echo "磁盘空间清理完毕"
             echo "=============================================================================="
             df -hT
