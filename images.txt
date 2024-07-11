@@ -1,4 +1,9 @@
-#这个文件远程的镜像名为“name:tag”形式，拉取x64和arm64镜像
+# 这个文件远程的镜像名为“name:tag”形式，拉取x64和arm64镜像。
+# 如dockerhub上镜像名为：xijiahui/oracle_database:19.3.0-ee
+# 在远程存储的x64镜像名为：oracle_database:19.3.0-ee_x64,
+# 在远程存储的arm64镜像名为：oracle_database:19.3.0-ee_arm64
+# 在远程存储的manifest镜像名为：oracle_database:19.3.0-ee
+
 #xijiahui/oracle_database:19.3.0-ee
 #opengauss/opengauss:5.0.0
 #mysql:8.0.38
