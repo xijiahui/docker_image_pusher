@@ -1,2 +1,5 @@
-#这个文件远程的镜像名为“namespace_name:tag_x64”形式
-appropriate/curl:latest
+# dockerhub只有x64镜像，并且镜像名存在重复
+# 这个文件远程的镜像名为“namespace_name:tag_x64”形式，只拉取x64镜像。
+# 如dockerhub上镜像名为：appropriate/curl:latest，在远程存储的镜像名为appropriate_curl:latest_x64
+
+#appropriate/curl:latest
