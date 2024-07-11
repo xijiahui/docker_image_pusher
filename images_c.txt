@@ -1,4 +1,10 @@
-#这个文件远程的镜像名为“namespace_name:tag”形式
+# dockerhub镜像名存在重复
+# 这个文件远程的镜像名为“namespace_name:tag”形式，拉取x64和arm64镜像。
+# 如dockerhub上镜像名为：curlimages/curl:8.8.0
+# 在远程存储的x64镜像名为：curlimages_curl:8.8.0_x64,
+# 在远程存储的arm64镜像名为：curlimages_curl:8.8.0_arm64
+# 在远程存储的manifest镜像名为：curlimages_curl:8.8.0
+
 #curlimages/curl:8.8.0
 #registry.k8s.io/ingress-nginx/controller:v1.10.1
 #registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.4.1
