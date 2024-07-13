@@ -2,16 +2,16 @@
 # 这个文件远程的镜像名为“namespace_name:tag_x64”形式，只拉取x64镜像。
 # 如dockerhub上镜像名为：appropriate/curl:latest，在远程存储的镜像名为appropriate_curl:latest_x64
 
-appropriate/curl:latest
-goharbor/harbor-core:v2.11.0
-goharbor/harbor-db:v2.11.0
-goharbor/nginx-photon:v2.11.0
-goharbor/trivy-adapter-photon:v2.11.0
-goharbor/redis-photon:v2.11.0
-goharbor/registry-photon:v2.11.0
-goharbor/prepare:v2.11.0
-goharbor/harbor-portal:v2.11.0
-goharbor/harbor-log:v2.11.0
-goharbor/harbor-jobservice:v2.11.0
-goharbor/harbor-registryctl:v2.11.0
-goharbor/harbor-exporter:v2.11.0
+#appropriate/curl:latest
+#goharbor/harbor-core:v2.11.0
+#goharbor/harbor-db:v2.11.0
+#goharbor/nginx-photon:v2.11.0
+#goharbor/trivy-adapter-photon:v2.11.0
+#goharbor/redis-photon:v2.11.0
+#goharbor/registry-photon:v2.11.0
+#goharbor/prepare:v2.11.0
+#goharbor/harbor-portal:v2.11.0
+#goharbor/harbor-log:v2.11.0
+#goharbor/harbor-jobservice:v2.11.0
+#goharbor/harbor-registryctl:v2.11.0
+#goharbor/harbor-exporter:v2.11.0
