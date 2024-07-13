@@ -39,10 +39,10 @@
 #apache/skywalking-oap-server:9.6.0
 #apache/skywalking-ui:10.0.1
 #apache/skywalking-ui:9.6.0
-grafana/grafana:11.1.0
+#grafana/grafana:11.1.0
 #grafana/grafana:9.5.20
 #grafana/grafana:10.1.2
-prom/prometheus:v2.53.1
+#prom/prometheus:v2.53.1
 #prom/prometheus:v2.45.6
 #prom/prometheus:v2.47.0
 #docker.elastic.co/elasticsearch/elasticsearch:8.14.2
