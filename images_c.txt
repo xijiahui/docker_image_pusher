@@ -5,6 +5,6 @@
 # 在远程存储的arm64镜像名为：curlimages_curl:8.8.0_arm64
 # 在远程存储的manifest镜像名为：curlimages_curl:8.8.0
 
-curlimages/curl:8.8.0
-registry.k8s.io/ingress-nginx/controller:v1.10.1
-registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.4.1
+#curlimages/curl:8.8.0
+#registry.k8s.io/ingress-nginx/controller:v1.10.1
+#registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.4.1
