@@ -4,19 +4,23 @@
 # 在远程存储的arm64镜像名为：oracle_database:19.3.0-ee_arm64
 # 在远程存储的manifest镜像名为：oracle_database:19.3.0-ee
 
-#httpd:2.4.61
-#registry:2.8.3
-#xijiahui/oracle_database:19.3.0-ee
-#opengauss/opengauss:5.0.0
-#mysql:8.0.38
-#mysql:8.4.1
-#postgres:16.3
-#postgres:15.7
-#postgres:14.12
-#phpmyadmin:5.2.1
-#dpage/pgadmin4:8.9
-#openjdk:8-jre-slim
-#nacos/nacos-server:v2.3.2-slim
+httpd:2.4.61
+registry:2.8.3
+xijiahui/oracle_database:19.3.0-ee
+opengauss/opengauss:5.0.0
+mysql:8.0.34
+mysql:8.0.38
+mysql:8.4.1
+postgres:14.10
+postgres:16.3
+postgres:15.7
+postgres:14.12
+phpmyadmin:5.2.1
+dpage/pgadmin4:8.3
+dpage/pgadmin4:8.9
+openjdk:8-jre-slim
+nacos/nacos-server:v2.2.3-slim
+nacos/nacos-server:v2.3.2-slim
 #apache/skywalking-java-agent:9.2.0-java8
 #redis:7.2.5
 #minio/minio:RELEASE.2024-07-04T14-25-45Z
