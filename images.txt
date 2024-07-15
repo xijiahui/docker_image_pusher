@@ -19,7 +19,8 @@
 #dpage/pgadmin4:8.3
 #dpage/pgadmin4:8.9
 #openjdk:8-jre-slim
-eclipse-temurin:8u362-b09-jre
+eclipse-temurin:8u412-b08-jre
+#eclipse-temurin:8u362-b09-jre
 #nacos/nacos-server:v2.2.3-slim
 #nacos/nacos-server:v2.3.2-slim
 #apache/skywalking-java-agent:9.0.0-java8
