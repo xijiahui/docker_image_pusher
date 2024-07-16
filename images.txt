@@ -4,7 +4,7 @@
 # 在远程存储的arm64镜像名为：oracle_database:19.3.0-ee_arm64
 # 在远程存储的manifest镜像名为：oracle_database:19.3.0-ee
 
-php:7.4-alpine
+#php:7.4-alpine
 #adminer:4.8.0
 #adminer:4.8.1
 #httpd:2.4.61
