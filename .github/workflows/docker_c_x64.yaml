@@ -86,7 +86,7 @@ jobs:
             echo "docker pull --platform=amd64 $line"
             docker pull --platform=amd64 $line
             
-            tag_suffix_x64="_x64"
+            tag_suffix_x64=""
             new_image_x64="$new_image$tag_suffix_x64"
             new_image_x64_TC="$new_image_TC$tag_suffix_x64"
             
