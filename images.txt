@@ -4,6 +4,7 @@
 # 在远程存储的arm64镜像名为：oracle_database:19.3.0-ee_arm64
 # 在远程存储的manifest镜像名为：oracle_database:19.3.0-ee
 
+adminer:4.8.1
 #httpd:2.4.61
 #registry:2.8.3
 #xijiahui/oracle_database:19.3.0-ee
