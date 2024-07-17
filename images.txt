@@ -4,8 +4,8 @@
 # 在远程存储的arm64镜像名为：oracle_database:19.3.0-ee_arm64
 # 在远程存储的manifest镜像名为：oracle_database:19.3.0-ee
 
-#container-registry.oracle.com/database/ords-developer:24.2.2
 xijiahui/adminer:4.8.1-oracle
+#container-registry.oracle.com/database/ords-developer:24.2.2
 #php:7.4-alpine
 #adminer:4.8.0
 #adminer:4.8.1
