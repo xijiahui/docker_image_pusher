@@ -26,6 +26,7 @@ redis:7.2.1
 nginx:1.27.0
 rabbitmq:3.13.4-management
 rabbitmq:3.12.6-management
+
 #oceanbase/oceanbase-ce:4.2.3.1-101000032024061316
 #oceanbase/odc:4.3.0_bp1
 #xijiahui/adminer:4.8.1-oracle
