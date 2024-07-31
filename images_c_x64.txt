@@ -3,7 +3,7 @@
 # 如dockerhub上镜像名为：appropriate/curl:latest，在远程存储的镜像名为appropriate_curl:latest
 
 #doctorkirk/oracle-19c:19.9
-#appropriate/curl:latest
+appropriate/curl:latest
 #goharbor/harbor-core:v2.11.0
 #goharbor/harbor-db:v2.11.0
 #goharbor/nginx-photon:v2.11.0
