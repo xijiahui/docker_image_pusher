@@ -4,6 +4,11 @@
 # 在远程存储的arm64镜像名为：oracle_database:19.3.0-ee_arm64
 # 在远程存储的manifest镜像名为：oracle_database:19.3.0-ee
 
+openeuler/mysql:8.3.0-oe2203sp3
+openeuler/tomcat:9.0.10-20.03-lts-sp1
+openeuler/bisheng-jdk:1.8.0-oe2203lts
+openeuler/bisheng-jdk:1.8.0-oe2203sp3
+
 #mysql:8.4.2
 #mysql:8.0.39
 #mysql:8.0.34
