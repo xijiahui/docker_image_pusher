@@ -5,6 +5,11 @@
 # 在远程存储的arm64镜像名为：curlimages_curl:8.8.0_arm64
 # 在远程存储的manifest镜像名为：curlimages_curl:8.8.0
 
+openeuler/mysql:8.3.0-oe2203sp3
+openeuler/tomcat:9.0.10-20.03-lts-sp1
+openeuler/bisheng-jdk:1.8.0-oe2203lts
+openeuler/bisheng-jdk:1.8.0-oe2203sp3
+
 #testcontainers/ryuk:0.8.1
 #testcontainers/ryuk:0.7.0
 #testcontainers/ryuk:0.6.0
