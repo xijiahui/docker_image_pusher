@@ -23,7 +23,7 @@
 #registry:2.8.3
 #redis:7.2.5
 #redis:7.2.1
-#nginx:1.27.0
+nginx:1.27.0
 #rabbitmq:3.13.4-management
 #rabbitmq:3.12.6-management
 
