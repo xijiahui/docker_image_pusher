@@ -1,0 +1,127 @@
+name: Docker_tx
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ develop ]
+
+
+env:
+  TENCENT_REGISTRY: "${{ secrets.TENCENT_REGISTRY }}"
+  TENCENT_NAME_SPACE: "${{ secrets.TENCENT_NAME_SPACE }}"
+  TENCENT_REGISTRY_USER: "${{ secrets.TENCENT_REGISTRY_USER }}"
+  TENCENT_REGISTRY_PASSWORD: "${{ secrets.TENCENT_REGISTRY_PASSWORD }}"
+jobs:
+
+  build:
+    name: Pull
+    runs-on: ubuntu-latest
+    steps:
+    - name: Before freeing up disk space
+      run: |
+        echo "Before freeing up disk space"
+        echo "=============================================================================="
+        df -hT
+        echo "=============================================================================="
+
+    # 增加可用磁盘空间
+    - name: Maximize build space
+      uses: easimon/maximize-build-space@master
+      with:
+
+        root-reserve-mb: 2048
+        swap-size-mb: 128
+        remove-dotnet: 'true'
+        remove-haskell: 'true'
+        # 如果空间还是不够用，可以把以下开启，清理出更多空间
+        # remove-android: 'true'
+        # remove-codeql: 'true'
+        build-mount-path: '/var/lib/docker/'
+
+    - name: Restart docker
+      run: sudo service docker restart
+
+    - name: Free up disk space complete
+      run: |
+        echo "Free up disk space complete"
+        echo "=============================================================================="
+        df -hT
+        echo "=============================================================================="
+
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+    - name: Docker Setup Buildx
+      uses: docker/setup-buildx-action@v3
+
+    - name: Build and push image Tencent
+      run: |
+        docker login -u $TENCENT_REGISTRY_USER -p $TENCENT_REGISTRY_PASSWORD $TENCENT_REGISTRY
+        while IFS= read -r line || [ -n "$line" ]; do
+            # 忽略空行与注释
+            [[ -z "$line" ]] && continue
+            if echo "$line" | grep -q '^\s*#'; then
+                continue
+            fi
+            # 获取镜像的完整名称，例如kasmweb/nginx:1.25.3（命名空间/镜像名:版本号）
+            image=$(echo "$line" | awk '{print $NF}')
+            # 获取 镜像名:版本号  例如nginx:1.25.3
+            image_name_tag=$(echo "$image" | awk -F'/' '{print $NF}')
+            # 获取命名空间 例如kasmweb  这里有种特殊情况 docker.io/nginx，把docker.io当成命名空间，也OK
+            name_space=$(echo "$image" | awk -F'/' '{if (NF==3) print $2; else if (NF==2) print $1; else print ""}')
+            # 获取镜像名例  例如nginx
+            image_name=$(echo "$image_name_tag" | awk -F':' '{print $1}')
+            # 将@sha256:等字符删除
+            image_name_tag="${image_name_tag%%@*}"
+      
+            new_image_TC="$TENCENT_REGISTRY/$TENCENT_NAME_SPACE/$image_name_tag"
+            
+            echo "docker pull --platform=amd64 $line"
+            docker pull --platform=amd64 $line
+            
+            tag_suffix_x64="_x64"
+            new_image_x64_TC="$new_image_TC$tag_suffix_x64"
+            
+            echo "docker tag $image $new_image_x64_TC"
+            docker tag $image $new_image_x64_TC
+            echo "docker rmi $image"
+            docker rmi $image
+            
+            echo "docker push $new_image_x64_TC"
+            docker push $new_image_x64_TC
+            
+            echo "docker pull --platform arm64 $line"
+            docker pull --platform=arm64 $line
+            
+            tag_suffix_arm64="_arm64"
+            new_image_arm64_TC="$new_image_TC$tag_suffix_arm64"
+            
+            echo "docker tag $image $new_image_arm64_TC"
+            docker tag $image $new_image_arm64_TC
+            echo "docker rmi $image"
+            docker rmi $image
+            
+            echo "docker push $new_image_arm64_TC"
+            docker push $new_image_arm64_TC
+            
+            docker manifest create $new_image_TC $new_image_arm64_TC $new_image_x64_TC
+            docker manifest annotate $new_image_TC $new_image_x64_TC   --os linux --arch amd64
+            docker manifest annotate $new_image_TC $new_image_arm64_TC --os linux --arch arm64
+            docker manifest push     $new_image_TC
+            docker manifest rm       $new_image_TC
+            echo "开始清理磁盘空间"
+            echo "=============================================================================="
+            df -hT
+            echo "------------------------------------------------------------------------------"
+            docker images
+            echo "=============================================================================="
+            docker rmi $new_image_arm64_TC
+            docker rmi $new_image_x64_TC
+            echo "磁盘空间清理完毕"
+            echo "=============================================================================="
+            df -hT
+            echo "------------------------------------------------------------------------------"
+            docker images
+            echo "=============================================================================="     
+            
+        done < images.txt
