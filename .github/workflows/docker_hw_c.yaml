@@ -58,7 +58,7 @@ jobs:
     - name: Docker Setup Buildx
       uses: docker/setup-buildx-action@v3
 
-    - name: Build and push image Aliyun
+    - name: Build and push image HuaWei
       run: |
         docker login -u $HUAWEI1_REGISTRY_USER -p $HUAWEI1_REGISTRY_PASSWORD $HUAWEI1_REGISTRY
         docker login -u $HUAWEI2_REGISTRY_USER -p $HUAWEI2_REGISTRY_PASSWORD $HUAWEI2_REGISTRY
