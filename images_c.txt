@@ -15,12 +15,12 @@
 #curlimages/curl:8.8.0
 
 ##https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.11.2/deploy/static/provider/cloud/deploy.yaml
-registry.k8s.io/ingress-nginx/controller:v1.11.2
-registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.4.3
-registry.k8s.io/ingress-nginx/controller:v1.10.1
-registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.4.1
+#registry.k8s.io/ingress-nginx/controller:v1.11.2
+#registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.4.3
+#registry.k8s.io/ingress-nginx/controller:v1.10.1
+#registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.4.1
 
-openeuler/mysql:8.3.0-oe2203sp3
-openeuler/tomcat:9.0.10-20.03-lts-sp1
-openeuler/bisheng-jdk:1.8.0-oe2203lts
-openeuler/bisheng-jdk:1.8.0-oe2203sp3
+#openeuler/mysql:8.3.0-oe2203sp3
+#openeuler/tomcat:9.0.10-20.03-lts-sp1
+#openeuler/bisheng-jdk:1.8.0-oe2203lts
+#openeuler/bisheng-jdk:1.8.0-oe2203sp3
