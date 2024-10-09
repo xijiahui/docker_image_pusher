@@ -4,22 +4,23 @@
 # 在远程存储的arm64镜像名为：oracle_database:19.3.0-ee_arm64
 # 在远程存储的manifest镜像名为：oracle_database:19.3.0-ee
 
-#mysql:8.4.2
-#mysql:8.0.39
-#postgres:16.4
-#postgres:15.8
-#postgres:14.13
-#phpmyadmin:5.2.1
-#eclipse-temurin:8u422-b05-jre
-#tomcat:9.0.95-jre8
-#httpd:2.4.62
-#registry:2.8.3
-#redis:7.4.0
-#redis:7.2.5
-#nginx:1.27.1
-#rabbitmq:4.0.2-management
-#rabbitmq:3.13.7-management
-#rabbitmq:3.12.14-management
+mysql:8.4.2
+mysql:8.0.39
+postgres:17.0
+postgres:16.4
+postgres:15.8
+postgres:14.13
+phpmyadmin:5.2.1
+eclipse-temurin:8u422-b05-jre
+tomcat:9.0.96-jre8
+httpd:2.4.62
+registry:2.8.3
+redis:7.4.1
+redis:7.2.6
+nginx:1.27.2
+rabbitmq:4.0.2-management
+rabbitmq:3.13.7-management
+rabbitmq:3.12.14-management
 
 #mysql:8.0.34
 #postgres:16.3
@@ -30,46 +31,65 @@
 #openjdk:8-jre-slim
 #eclipse-temurin:8u412-b08-jre
 #eclipse-temurin:8u362-b09-jre
+tomcat:9.0.95-jre8
 #tomcat:9.0.93-jre8
 #tomcat:9.0.91-jre8
 #tomcat:8.5.100-jre8
 #tomcat:8.5.93-jre8
 #httpd:2.4.61
+redis:7.4.0
+redis:7.2.5
 #redis:7.2.1
+nginx:1.27.1
 #nginx:1.27.0
 #rabbitmq:3.13.4-management
 #rabbitmq:3.12.6-management
 
+container-registry.oracle.com/database/ords-developer:24.3.0
 #container-registry.oracle.com/database/ords-developer:24.2.2
 
+dpage/pgadmin4:8.12.0
 #dpage/pgadmin4:8.9
 #dpage/pgadmin4:8.3
 
+nacos/nacos-server:v2.4.2.1-slim
 #nacos/nacos-server:v2.3.2-slim
 #nacos/nacos-server:v2.2.3-slim
 
+apache/skywalking-java-agent:9.3.0-java8
 #apache/skywalking-java-agent:9.0.0-java8
 #apache/skywalking-java-agent:9.2.0-java8
 
+minio/minio:RELEASE.2024-10-02T17-50-41Z
 #minio/minio:RELEASE.2024-07-04T14-25-45Z
 #minio/minio:RELEASE.2023-09-23T03-47-50Z
 
+redislabs/redisinsight:2.58
 #redislabs/redisinsight:2.52
 #redislabs/redisinsight:1.14.0
 
+apache/skywalking-oap-server:10.1.0
+apache/skywalking-ui:10.1.0
 #apache/skywalking-oap-server:10.0.1
 #apache/skywalking-ui:10.0.1
 #apache/skywalking-oap-server:9.6.0
 #apache/skywalking-ui:9.6.0
 
+grafana/grafana:11.2.2
 #grafana/grafana:11.1.0
-#grafana/grafana:9.5.20
 #grafana/grafana:10.1.2
+#grafana/grafana:9.5.20
 
+prom/prometheus:v2.54.1
+prom/prometheus:v2.53.2
 #prom/prometheus:v2.53.1
 #prom/prometheus:v2.47.0
 #prom/prometheus:v2.45.6
 
+docker.elastic.co/elasticsearch/elasticsearch:8.15.2
+docker.elastic.co/beats/filebeat:8.15.2
+docker.elastic.co/kibana/kibana:8.15.2
+docker.elastic.co/logstash/logstash:8.15.2
 docker.elastic.co/elasticsearch/elasticsearch:8.14.2
 docker.elastic.co/beats/filebeat:8.14.2
 docker.elastic.co/kibana/kibana:8.14.2
@@ -79,10 +99,14 @@ docker.elastic.co/beats/filebeat:8.10.2
 docker.elastic.co/kibana/kibana:8.10.2
 docker.elastic.co/logstash/logstash:8.10.2
 
-flannel/flannel:v0.25.4
-flannel/flannel-cni-plugin:v1.5.1-flannel1
+registry.k8s.io/kube-apiserver:v1.31.0
+registry.k8s.io/kube-controller-manager:v1.31.0
+registry.k8s.io/kube-scheduler:v1.31.0
+registry.k8s.io/kube-proxy:v1.31.0
+registry.k8s.io/coredns/coredns:v1.11.3
+registry.k8s.io/pause:3.10
+registry.k8s.io/etcd:3.5.15-0
 
-registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
 registry.k8s.io/kube-apiserver:v1.30.2
 registry.k8s.io/kube-controller-manager:v1.30.2
 registry.k8s.io/kube-proxy:v1.30.2
@@ -90,7 +114,18 @@ registry.k8s.io/kube-scheduler:v1.30.2
 registry.k8s.io/coredns/coredns:v1.11.1
 registry.k8s.io/pause:3.9
 registry.k8s.io/etcd:3.5.12-0
+
+##https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
+registry.k8s.io/metrics-server/metrics-server:v0.7.2
 registry.k8s.io/metrics-server/metrics-server:v0.7.1
+
+##https://github.com/flannel-io/flannel/releases/latest/download/kube-flannel.yml
+flannel/flannel:v0.25.7
+flannel/flannel-cni-plugin:v1.5.1-flannel2
+flannel/flannel:v0.25.4
+flannel/flannel-cni-plugin:v1.5.1-flannel1
+
+registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
 
 xijiahui/adminer:4.8.1-oracle
 xijiahui/oracle_database:19.3.0-ee
