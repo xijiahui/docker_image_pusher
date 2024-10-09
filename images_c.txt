@@ -5,14 +5,14 @@
 # 在远程存储的arm64镜像名为：curlimages_curl:8.8.0_arm64
 # 在远程存储的manifest镜像名为：curlimages_curl:8.8.0
 
-testcontainers/ryuk:0.9.0
-testcontainers/ryuk:0.8.1
-testcontainers/ryuk:0.7.0
-testcontainers/ryuk:0.6.0
-testcontainers/ryuk:0.5.1
+#testcontainers/ryuk:0.9.0
+#testcontainers/ryuk:0.8.1
+#testcontainers/ryuk:0.7.0
+#testcontainers/ryuk:0.6.0
+#testcontainers/ryuk:0.5.1
 
-curlimages/curl:8.10.1
-curlimages/curl:8.8.0
+#curlimages/curl:8.10.1
+#curlimages/curl:8.8.0
 
 ##https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.11.2/deploy/static/provider/cloud/deploy.yaml
 registry.k8s.io/ingress-nginx/controller:v1.11.2
