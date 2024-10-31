@@ -99,13 +99,13 @@
 #docker.elastic.co/kibana/kibana:8.10.2
 #docker.elastic.co/logstash/logstash:8.10.2
 
-registry.k8s.io/kube-apiserver:v1.31.2
-registry.k8s.io/kube-controller-manager:v1.31.2
-registry.k8s.io/kube-scheduler:v1.31.2
-registry.k8s.io/kube-proxy:v1.31.2
-registry.k8s.io/coredns/coredns:v1.11.3
-registry.k8s.io/pause:3.10
-registry.k8s.io/etcd:3.5.15-0
+#registry.k8s.io/kube-apiserver:v1.31.2
+#registry.k8s.io/kube-controller-manager:v1.31.2
+#registry.k8s.io/kube-scheduler:v1.31.2
+#registry.k8s.io/kube-proxy:v1.31.2
+#registry.k8s.io/coredns/coredns:v1.11.3
+#registry.k8s.io/pause:3.10
+#registry.k8s.io/etcd:3.5.15-0
 
 #registry.k8s.io/kube-apiserver:v1.31.0
 #registry.k8s.io/kube-controller-manager:v1.31.0
@@ -128,8 +128,8 @@ registry.k8s.io/etcd:3.5.15-0
 #registry.k8s.io/metrics-server/metrics-server:v0.7.1
 
 ##https://github.com/flannel-io/flannel/releases/latest/download/kube-flannel.yml
-flannel/flannel:v0.26.0
-flannel/flannel-cni-plugin:v1.5.1-flannel2
+#flannel/flannel:v0.26.0
+#flannel/flannel-cni-plugin:v1.5.1-flannel2
 #flannel/flannel:v0.25.7
 #flannel/flannel-cni-plugin:v1.5.1-flannel2
 #flannel/flannel:v0.25.4
