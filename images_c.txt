@@ -28,8 +28,8 @@
 #openeuler/tomcat:9.0.10-20.03-lts-sp1
 #openeuler/bisheng-jdk:1.8.0-oe2203lts
 #openeuler/bisheng-jdk:1.8.0-oe2203sp3
-openeuler/redis:7.4.1-oe2403lts
-openeuler/redis:7.4.1-oe2203sp3
-openeuler/redis:7.4.1-oe2203sp1
-openeuler/redis:7.4.1-oe2203sp4
-openeuler/redis:7.4.1-oe2003sp4
+#openeuler/redis:7.4.1-oe2403lts
+#openeuler/redis:7.4.1-oe2203sp3
+#openeuler/redis:7.4.1-oe2203sp1
+#openeuler/redis:7.4.1-oe2203sp4
+#openeuler/redis:7.4.1-oe2003sp4
