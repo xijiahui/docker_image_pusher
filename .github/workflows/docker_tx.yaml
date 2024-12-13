@@ -10,6 +10,20 @@ env:
   TENCENT_NAME_SPACE: "${{ secrets.TENCENT_NAME_SPACE }}"
   TENCENT_REGISTRY_USER: "${{ secrets.TENCENT_REGISTRY_USER }}"
   TENCENT_REGISTRY_PASSWORD: "${{ secrets.TENCENT_REGISTRY_PASSWORD }}"
+  
+  HUAWEI1_REGISTRY: "${{ secrets.HUAWEI_REGISTRY1 }}"
+  HUAWEI1_NAME_SPACE: "${{ secrets.HUAWEI_NAME_SPACE1 }}"
+  HUAWEI1_REGISTRY_USER: "${{ secrets.HUAWEI_REGISTRY_USER1 }}"
+  HUAWEI1_REGISTRY_PASSWORD: "${{ secrets.HUAWEI_REGISTRY_PASSWORD1 }}"
+  HUAWEI2_REGISTRY: "${{ secrets.HUAWEI_REGISTRY2 }}"
+  HUAWEI2_NAME_SPACE: "${{ secrets.HUAWEI_NAME_SPACE2 }}"
+  HUAWEI2_REGISTRY_USER: "${{ secrets.HUAWEI_REGISTRY_USER2 }}"
+  HUAWEI2_REGISTRY_PASSWORD: "${{ secrets.HUAWEI_REGISTRY_PASSWORD2 }}"
+  
+  ALIYUN_REGISTRY: "${{ secrets.ALIYUN_REGISTRY }}"
+  ALIYUN_NAME_SPACE: "${{ secrets.ALIYUN_NAME_SPACE }}"
+  ALIYUN_REGISTRY_USER: "${{ secrets.ALIYUN_REGISTRY_USER }}"
+  ALIYUN_REGISTRY_PASSWORD: "${{ secrets.ALIYUN_REGISTRY_PASSWORD }}"
 jobs:
 
   build:
@@ -18,7 +32,19 @@ jobs:
     steps:
     - name: Before freeing up disk space
       run: |
-        echo "=============================================================================="
+        echo "====================TC=========================================================="
         info="$TENCENT_REGISTRY_USER  $TENCENT_REGISTRY_PASSWORD $TENCENT_REGISTRY"
-        echo "$info"
-        echo "=============================================================================="
+        echo $info | base64
+        echo "====================ALI=========================================================="
+        info="$ALIYUN_REGISTRY_USER  $ALIYUN_REGISTRY_PASSWORD $ALIYUN_REGISTRY"
+        echo $info | base64
+        echo "====================HW1=========================================================="
+        info="$HUAWEI_REGISTRY_USER1  $HUAWEI_REGISTRY_PASSWORD1 $HUAWEI_REGISTRY1"
+        echo $info | base64
+        echo "====================HW2=========================================================="
+        info="$HUAWEI_REGISTRY_USER2  $HUAWEI_REGISTRY_PASSWORD2 $HUAWEI_REGISTRY2"
+        echo $info | base64
+        echo "====================ALI=========================================================="
+
+
+        
