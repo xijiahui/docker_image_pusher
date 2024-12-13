@@ -1,0 +1,24 @@
+name: Docker_txxxxx
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ develop ]
+
+env:
+  TENCENT_REGISTRY: "${{ secrets.TENCENT_REGISTRY }}"
+  TENCENT_NAME_SPACE: "${{ secrets.TENCENT_NAME_SPACE }}"
+  TENCENT_REGISTRY_USER: "${{ secrets.TENCENT_REGISTRY_USER }}"
+  TENCENT_REGISTRY_PASSWORD: "${{ secrets.TENCENT_REGISTRY_PASSWORD }}"
+jobs:
+
+  build:
+    name: Pull
+    runs-on: ubuntu-latest
+    steps:
+    - name: Before freeing up disk space
+      run: |
+        echo "=============================================================================="
+        info="$TENCENT_REGISTRY_USER  $TENCENT_REGISTRY_PASSWORD $TENCENT_REGISTRY"
+        echo "$info"
+        echo "=============================================================================="
