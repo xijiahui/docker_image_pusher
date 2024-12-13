@@ -39,12 +39,12 @@ jobs:
         info="$ALIYUN_REGISTRY_USER  $ALIYUN_REGISTRY_PASSWORD $ALIYUN_REGISTRY"
         echo $info | base64
         echo "====================HW1=========================================================="
-        info="$HUAWEI_REGISTRY_USER1  $HUAWEI_REGISTRY_PASSWORD1 $HUAWEI_REGISTRY1"
+        info="$HUAWEI1_REGISTRY_USER  $HUAWEI1_REGISTRY_PASSWORD $HUAWEI1_REGISTRY"
         echo $info | base64
         echo "====================HW2=========================================================="
-        info="$HUAWEI_REGISTRY_USER2  $HUAWEI_REGISTRY_PASSWORD2 $HUAWEI_REGISTRY2"
+        info="$HUAWEI2_REGISTRY_USER  $HUAWEI2_REGISTRY_PASSWORD $HUAWEI2_REGISTRY"
         echo $info | base64
-        echo "====================ALI=========================================================="
+        echo "====================---=========================================================="
 
 
         
