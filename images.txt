@@ -198,3 +198,14 @@
 
 #opengauss/opengauss:5.0.0
 #buildpack-deps:buster-curl
+
+enmotech/opengauss:6.0.0
+enmotech/opengauss:5.0.3
+enmotech/opengauss:5.1.0
+enmotech/opengauss:5.0.2
+enmotech/opengauss:5.0.1
+enmotech/opengauss:5.0.0
+enmotech/opengauss-lite:5.0.3
+enmotech/opengauss-lite:5.1.0
+enmotech/opengauss-lite:5.0.2
+enmotech/opengauss-lite:5.0.1
