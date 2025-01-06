@@ -196,5 +196,5 @@
 #xijiahui/adminer:4.8.1-oracle
 #xijiahui/oracle_database:19.3.0-ee
 
-opengauss/opengauss:5.0.0
+#opengauss/opengauss:5.0.0
 #buildpack-deps:buster-curl
