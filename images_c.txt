@@ -45,13 +45,13 @@
 #openeuler/bisheng-jdk:1.8.0-oe2203lts
 #openeuler/bisheng-jdk:1.8.0-oe2203sp3
 
-enmotech/opengauss:6.0.0
-enmotech/opengauss:5.0.3
-enmotech/opengauss:5.1.0
-enmotech/opengauss:5.0.2
-enmotech/opengauss:5.0.1
-enmotech/opengauss:5.0.0
-enmotech/opengauss-lite:5.0.3
-enmotech/opengauss-lite:5.1.0
-enmotech/opengauss-lite:5.0.2
-enmotech/opengauss-lite:5.0.1
+#enmotech/opengauss:6.0.0
+#enmotech/opengauss:5.0.3
+#enmotech/opengauss:5.1.0
+#enmotech/opengauss:5.0.2
+#enmotech/opengauss:5.0.1
+#enmotech/opengauss:5.0.0
+#enmotech/opengauss-lite:5.0.3
+#enmotech/opengauss-lite:5.1.0
+#enmotech/opengauss-lite:5.0.2
+#enmotech/opengauss-lite:5.0.1
