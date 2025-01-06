@@ -17,10 +17,15 @@
 #testcontainers/ryuk:0.6.0
 #testcontainers/ryuk:0.5.1
 
+curlimages/curl:8.11.1
 #curlimages/curl:8.11.0
 #curlimages/curl:8.10.1
 #curlimages/curl:8.8.0
 
+### https://kubernetes.github.io/ingress-nginx/deploy/
+##https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.12.0/deploy/static/provider/cloud/deploy.yaml
+registry.k8s.io/ingress-nginx/controller:v1.12.0
+registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.5.0
 ##https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.12.0-beta.0/deploy/static/provider/cloud/deploy.yaml
 #registry.k8s.io/ingress-nginx/controller:v1.12.0-beta.0
 #registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.4.4
@@ -31,11 +36,11 @@
 #registry.k8s.io/ingress-nginx/controller:v1.10.1
 #registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.4.1
 
-#openeuler/openeuler:24.03-lts
-#openeuler/openeuler:22.03-lts-sp4
-#openeuler/openeuler:22.03-lts-sp3
-#openeuler/openeuler:22.03-lts-sp1
-#openeuler/openeuler:20.03-lts-sp4
+openeuler/openeuler:24.03-lts
+openeuler/openeuler:22.03-lts-sp4
+openeuler/openeuler:22.03-lts-sp3
+openeuler/openeuler:22.03-lts-sp1
+openeuler/openeuler:20.03-lts-sp4
 #openeuler/redis:7.4.1-oe2403lts
 #openeuler/redis:7.4.1-oe2203sp4
 #openeuler/redis:7.4.1-oe2203sp3
