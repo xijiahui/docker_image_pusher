@@ -4,22 +4,22 @@
 # 在远程存储的arm64镜像名为：oracle_database:19.3.0-ee_arm64
 # 在远程存储的manifest镜像名为：oracle_database:19.3.0-ee
 
-#mysql:8.4.3
-#mysql:8.0.40
-#postgres:17.2
-#postgres:16.6
-#postgres:15.10
-#postgres:14.15
-#phpmyadmin:5.2.1
-#eclipse-temurin:8u432-b06-jre
-#tomcat:9.0.98-jre8
-#httpd:2.4.62
-#registry:2.8.3
-#redis:7.4.1
-#redis:7.2.6
-#nginx:1.27.3
-#rabbitmq:4.0.4-management
-#rabbitmq:3.13.7-management
+mysql:8.4.3
+mysql:8.0.40
+postgres:17.2
+postgres:16.6
+postgres:15.10
+postgres:14.15
+phpmyadmin:5.2.1
+eclipse-temurin:8u432-b06-jre
+tomcat:9.0.98-jre8
+httpd:2.4.62
+registry:2.8.3
+redis:7.4.1
+redis:7.2.6
+nginx:1.27.3
+rabbitmq:4.0.5-management
+rabbitmq:3.13.7-management
 
 #mysql:8.4.2
 #mysql:8.0.39
@@ -51,15 +51,19 @@
 #nginx:1.27.2
 #nginx:1.27.1
 #nginx:1.27.0
+rabbitmq:4.0.4-management
 #rabbitmq:4.0.2-management
 #rabbitmq:3.13.4-management
 #rabbitmq:3.12.14-management
 #rabbitmq:3.12.6-management
 
+## https://container-registry.oracle.com/ords/ocr/ba/database/ords-developer
+container-registry.oracle.com/database/ords-developer:24.4.0
 #container-registry.oracle.com/database/ords-developer:24.3.2
 #container-registry.oracle.com/database/ords-developer:24.3.0
 #container-registry.oracle.com/database/ords-developer:24.2.2
 
+dpage/pgadmin4:8.14.0
 #dpage/pgadmin4:8.13.0
 #dpage/pgadmin4:8.12.0
 #dpage/pgadmin4:8.9
@@ -74,11 +78,13 @@
 #apache/skywalking-java-agent:9.0.0-java8
 #apache/skywalking-java-agent:9.2.0-java8
 
+minio/minio:RELEASE.2024-12-18T13-15-44Z
 #minio/minio:RELEASE.2024-11-07T00-52-20Z
 #minio/minio:RELEASE.2024-10-02T17-50-41Z
 #minio/minio:RELEASE.2024-07-04T14-25-45Z
 #minio/minio:RELEASE.2023-09-23T03-47-50Z
 
+redislabs/redisinsight:2.64
 #redislabs/redisinsight:2.62
 #redislabs/redisinsight:2.58
 #redislabs/redisinsight:2.52
@@ -97,6 +103,7 @@
 #grafana/grafana:10.1.2
 #grafana/grafana:9.5.20
 
+prom/prometheus:v3.1.0
 #prom/prometheus:v3.0.1
 #prom/prometheus:v2.55.1
 #prom/prometheus:v2.54.1
@@ -106,6 +113,11 @@
 #prom/prometheus:v2.47.0
 #prom/prometheus:v2.45.6
 
+## https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html
+docker.elastic.co/elasticsearch/elasticsearch:8.17.0
+docker.elastic.co/beats/filebeat:8.17.0
+docker.elastic.co/kibana/kibana:8.17.0
+docker.elastic.co/logstash/logstash:8.17.0
 #docker.elastic.co/elasticsearch/elasticsearch:8.16.1
 #docker.elastic.co/beats/filebeat:8.16.1
 #docker.elastic.co/kibana/kibana:8.16.1
