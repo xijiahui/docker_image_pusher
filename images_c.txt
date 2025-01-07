@@ -5,59 +5,59 @@
 # 在远程存储的arm64镜像名为：curlimages_curl:8.8.0_arm64
 # 在远程存储的manifest镜像名为：curlimages_curl:8.8.0
 
-#openeuler/openeuler:24.03-lts
-#openeuler/openeuler:22.03-lts-sp4
-#openeuler/openeuler:22.03-lts-sp3
-#openeuler/openeuler:22.03-lts-sp1
-#openeuler/openeuler:20.03-lts-sp4
+openeuler/openeuler:24.03-lts
+openeuler/openeuler:22.03-lts-sp4
+openeuler/openeuler:22.03-lts-sp3
+openeuler/openeuler:22.03-lts-sp1
+openeuler/openeuler:20.03-lts-sp4
 
 #zengxs/gitlab:17.5.1-ce.0
 
-#testcontainers/ryuk:0.11.0
-#testcontainers/ryuk:0.10.2
-#testcontainers/ryuk:0.10.1
-#testcontainers/ryuk:0.10.0
-#testcontainers/ryuk:0.9.0
-#testcontainers/ryuk:0.8.1
-#testcontainers/ryuk:0.7.0
-#testcontainers/ryuk:0.6.0
-#testcontainers/ryuk:0.5.1
+testcontainers/ryuk:0.11.0
+testcontainers/ryuk:0.10.2
+testcontainers/ryuk:0.10.1
+testcontainers/ryuk:0.10.0
+testcontainers/ryuk:0.9.0
+testcontainers/ryuk:0.8.1
+testcontainers/ryuk:0.7.0
+testcontainers/ryuk:0.6.0
+testcontainers/ryuk:0.5.1
 
-#curlimages/curl:8.11.1
-#curlimages/curl:8.11.0
-#curlimages/curl:8.10.1
-#curlimages/curl:8.8.0
+curlimages/curl:8.11.1
+curlimages/curl:8.11.0
+curlimages/curl:8.10.1
+curlimages/curl:8.8.0
 
 ### https://kubernetes.github.io/ingress-nginx/deploy/
 ##https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.12.0/deploy/static/provider/cloud/deploy.yaml
-#registry.k8s.io/ingress-nginx/controller:v1.12.0
-#registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.5.0
+registry.k8s.io/ingress-nginx/controller:v1.12.0
+registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.5.0
 ##https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.12.0-beta.0/deploy/static/provider/cloud/deploy.yaml
-#registry.k8s.io/ingress-nginx/controller:v1.12.0-beta.0
-#registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.4.4
+registry.k8s.io/ingress-nginx/controller:v1.12.0-beta.0
+registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.4.4
 ##https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.11.2/deploy/static/provider/cloud/deploy.yaml
-#registry.k8s.io/ingress-nginx/controller:v1.11.2
-#registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.4.3
+registry.k8s.io/ingress-nginx/controller:v1.11.2
+registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.4.3
 ##https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.10.1/deploy/static/provider/cloud/deploy.yaml
-#registry.k8s.io/ingress-nginx/controller:v1.10.1
-#registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.4.1
+registry.k8s.io/ingress-nginx/controller:v1.10.1
+registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.4.1
 
-#openeuler/redis:7.4.1-oe2403lts
-#openeuler/redis:7.4.1-oe2203sp4
-#openeuler/redis:7.4.1-oe2203sp3
-#openeuler/redis:7.4.1-oe2203sp1
-#openeuler/redis:7.4.1-oe2003sp4
-#openeuler/tomcat:9.0.10-20.03-lts-sp1
-#openeuler/bisheng-jdk:1.8.0-oe2203lts
-#openeuler/bisheng-jdk:1.8.0-oe2203sp3
+openeuler/redis:7.4.1-oe2403lts
+openeuler/redis:7.4.1-oe2203sp4
+openeuler/redis:7.4.1-oe2203sp3
+openeuler/redis:7.4.1-oe2203sp1
+openeuler/redis:7.4.1-oe2003sp4
+openeuler/tomcat:9.0.10-20.03-lts-sp1
+openeuler/bisheng-jdk:1.8.0-oe2203lts
+openeuler/bisheng-jdk:1.8.0-oe2203sp3
 
-#enmotech/opengauss:6.0.0
-#enmotech/opengauss:5.0.3
-#enmotech/opengauss:5.1.0
-#enmotech/opengauss:5.0.2
-#enmotech/opengauss:5.0.1
-#enmotech/opengauss:5.0.0
-#enmotech/opengauss-lite:5.0.3
-#enmotech/opengauss-lite:5.1.0
-#enmotech/opengauss-lite:5.0.2
-#enmotech/opengauss-lite:5.0.1
+enmotech/opengauss:6.0.0
+enmotech/opengauss:5.0.3
+enmotech/opengauss:5.1.0
+enmotech/opengauss:5.0.2
+enmotech/opengauss:5.0.1
+enmotech/opengauss:5.0.0
+enmotech/opengauss-lite:5.0.3
+enmotech/opengauss-lite:5.1.0
+enmotech/opengauss-lite:5.0.2
+enmotech/opengauss-lite:5.0.1
