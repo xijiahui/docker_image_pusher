@@ -36,8 +36,8 @@
 #openjdk:8-jre-slim
 #eclipse-temurin:8u422-b05-jre
 #eclipse-temurin:8u412-b08-jre
+#eclipse-temurin:8u412-b08-jdk-centos7
 #eclipse-temurin:8u362-b09-jre
-eclipse-temurin:8u412-b08-jdk-centos7
 #tomcat:9.0.97-jre8
 #tomcat:9.0.96-jre8
 #tomcat:9.0.95-jre8
