@@ -4,7 +4,7 @@
 # 在远程存储的arm64镜像名为：oracle_database:19.3.0-ee_arm64
 # 在远程存储的manifest镜像名为：oracle_database:19.3.0-ee
 
-busybox:1.37.0-glibc
+#busybox:1.37.0-glibc
 #mysql:8.4.3
 #mysql:8.0.40
 #postgres:17.2
