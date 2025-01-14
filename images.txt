@@ -59,6 +59,8 @@
 #rabbitmq:3.12.14-management
 #rabbitmq:3.12.6-management
 
+joxit/docker-registry-ui:2.5.7
+
 ## https://container-registry.oracle.com/ords/ocr/ba/database/ords-developer
 #container-registry.oracle.com/database/ords-developer:24.4.0
 #container-registry.oracle.com/database/ords-developer:24.3.2
