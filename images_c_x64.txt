@@ -2,11 +2,6 @@
 # 这个文件远程的镜像名为“namespace_name:tag”形式，只拉取x64镜像。
 # 如dockerhub上镜像名为：appropriate/curl:latest，在远程存储的镜像名为appropriate_curl:latest
 
-container-registry.oracle.com/database/enterprise:19.3.0.0
-container-registry.oracle.com/database/enterprise:21.3.0.0
-container-registry.oracle.com/database/enterprise:12.2.0.1
-container-registry.oracle.com/database/enterprise:12.2.0.1-slim
-
 ##https://github.com/goharbor/harbor/releases/download/v2.12.1/harbor-online-installer-v2.12.1.tgz
 #goharbor/harbor-exporter:v2.12.1
 #goharbor/redis-photon:v2.12.1
