@@ -214,7 +214,7 @@
 
 ## https://github.com/flannel-io/flannel/releases/download/v0.25.4/kube-flannel.yml
 #flannel/flannel:v0.25.4
-flannel/flannel-cni-plugin:v1.4.1-flannel1
+#flannel/flannel-cni-plugin:v1.4.1-flannel1
 
 #registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
 
