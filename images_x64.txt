@@ -2,10 +2,10 @@
 # 这个文件远程的镜像名为“name:tag”形式，只拉取x64镜像
 # 如dockerhub上镜像为：xijiahui/oracle_database:11.2.0.4-ee，在远程存储的镜像名为oracle_database:11.2.0.4-ee
 
-gitlab/gitlab-ce:17.7.1-ce.0
-gitlab/gitlab-ce:17.5.5-ce.0
-gitlab/gitlab-ce:17.3.7-ce.0
-gitlab/gitlab-ce:17.1.8-ce.0
+#gitlab/gitlab-ce:17.7.1-ce.0
+#gitlab/gitlab-ce:17.5.5-ce.0
+#gitlab/gitlab-ce:17.3.7-ce.0
+#gitlab/gitlab-ce:17.1.8-ce.0
 #gitlab/gitlab-ce:17.7.0-ce.0
 #gitlab/gitlab-ce:17.6.1-ce.0
 #gitlab/gitlab-ce:17.5.3-ce.0
