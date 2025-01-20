@@ -13,7 +13,7 @@
 #postgres:14.15
 #phpmyadmin:5.2.1
 #eclipse-temurin:8u432-b06-jre
-#eclipse-temurin:8u432-b06-jdk
+eclipse-temurin:8u432-b06-jdk
 #tomcat:9.0.98-jre8
 #httpd:2.4.62
 #registry:2.8.3
