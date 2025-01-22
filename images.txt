@@ -4,7 +4,6 @@
 # 在远程存储的arm64镜像名为：oracle_database:19.3.0-ee_arm64
 # 在远程存储的manifest镜像名为：oracle_database:19.3.0-ee
 
-busybox:1.37.0-glibc
 mysql:8.4.4
 mysql:8.0.41
 postgres:17.2
@@ -22,6 +21,7 @@ redis:7.2.7
 nginx:1.27.3
 rabbitmq:4.0.5-management
 rabbitmq:3.13.7-management
+busybox:1.37.0-glibc
 
 mysql:8.4.3
 #mysql:8.4.2
