@@ -11,7 +11,6 @@
 #postgres:15.10
 #postgres:14.15
 #phpmyadmin:5.2.1
-#tomcat:9.0.98-jre8
 #registry:2.8.3
 #redis:7.4.2
 #redis:7.2.7
@@ -19,6 +18,8 @@
 #rabbitmq:4.0.5-management
 #rabbitmq:3.13.7-management
 #busybox:1.37.0-glibc
+tomcat:10.1.35-jre17
+tomcat:9.0.99-jre8
 
 #eclipse-temurin:8u442-b06-jre
 #eclipse-temurin:8u442-b06-jdk
@@ -44,6 +45,7 @@
 #eclipse-temurin:8u422-b05-jre
 #eclipse-temurin:8u412-b08-jre
 #eclipse-temurin:8u362-b09-jre
+tomcat:9.0.98-jre8
 #tomcat:9.0.97-jre8
 #tomcat:9.0.96-jre8
 #tomcat:9.0.95-jre8
@@ -86,6 +88,7 @@
 #nacos/nacos-server:v2.3.2-slim
 #nacos/nacos-server:v2.2.3-slim
 
+apache/skywalking-java-agent:9.3.0-java17
 #apache/skywalking-java-agent:9.3.0-java8
 #apache/skywalking-java-agent:9.0.0-java8
 #apache/skywalking-java-agent:9.2.0-java8
