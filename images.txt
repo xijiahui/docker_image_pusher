@@ -4,25 +4,24 @@
 # 在远程存储的arm64镜像名为：oracle_database:19.3.0-ee_arm64
 # 在远程存储的manifest镜像名为：oracle_database:19.3.0-ee
 
-mysql:8.4.4
-mysql:8.0.41
-postgres:17.3
-postgres:16.7
-postgres:15.11
-postgres:14.16
-phpmyadmin:5.2.2
-registry:2.8.3
-redis:7.4.2
-redis:7.2.7
-nginx:1.27.4
-rabbitmq:4.0.6-management
-rabbitmq:3.13.7-management
-busybox:1.37.0-glibc
-tomcat:10.1.36-jre17
-tomcat:9.0.100-jre8
+#mysql:8.4.4
+#mysql:8.0.41
+#postgres:17.3
+#postgres:16.7
+#postgres:15.11
+#postgres:14.16
+#phpmyadmin:5.2.2
+#registry:2.8.3
+#redis:7.4.2
+#redis:7.2.7
+#nginx:1.27.4
+#rabbitmq:4.0.6-management
+#rabbitmq:3.13.7-management
+#busybox:1.37.0-glibc
+#tomcat:10.1.36-jre17
+#tomcat:9.0.100-jre8
 
-openjdk:17-jdk-slim
-openjdk:17-jre-slim
+#openjdk:17-jdk-slim
 eclipse-temurin:17.0.14_7-jre
 eclipse-temurin:17.0.14_7-jdk
 eclipse-temurin:8u442-b06-jre
