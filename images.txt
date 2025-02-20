@@ -21,22 +21,21 @@
 #tomcat:10.1.36-jre17
 #tomcat:9.0.100-jre8
 
-#openjdk:17-jdk-slim
-eclipse-temurin:17.0.14_7-jre
-eclipse-temurin:17.0.14_7-jdk
-eclipse-temurin:8u442-b06-jre
-eclipse-temurin:8u442-b06-jdk
-httpd:2.4.63
+#eclipse-temurin:17.0.14_7-jre
+#eclipse-temurin:17.0.14_7-jdk
+#eclipse-temurin:8u442-b06-jre
+#eclipse-temurin:8u442-b06-jdk
+#httpd:2.4.63
 
 #mysql:8.4.3
 #mysql:8.4.2
 #mysql:8.0.40
 #mysql:8.0.39
 #mysql:8.0.34
-postgres:17.2
-postgres:16.6
-postgres:15.10
-postgres:14.15
+#postgres:17.2
+#postgres:16.6
+#postgres:15.10
+#postgres:14.15
 #postgres:17.0
 #postgres:16.4
 #postgres:16.3
@@ -46,6 +45,7 @@ postgres:14.15
 #postgres:14.12
 #postgres:14.10
 #adminer:4.8.1
+#openjdk:17-jdk-slim
 #openjdk:8-jre-slim
 #eclipse-temurin:8u432-b06-jre
 #eclipse-temurin:8u432-b06-jdk
