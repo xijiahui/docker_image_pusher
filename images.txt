@@ -45,6 +45,7 @@
 #postgres:14.12
 #postgres:14.10
 #adminer:4.8.1
+openjdk:21-jdk-slim
 #openjdk:17-jdk-slim
 #openjdk:8-jre-slim
 #eclipse-temurin:8u432-b06-jre
@@ -69,17 +70,17 @@
 #redis:7.2.6
 #redis:7.2.5
 #redis:7.2.1
-nginx:1.27.3
+#nginx:1.27.3
 #nginx:1.27.2
 #nginx:1.27.1
 #nginx:1.27.0
-rabbitmq:4.0.5-management
+#rabbitmq:4.0.5-management
 #rabbitmq:4.0.4-management
 #rabbitmq:4.0.2-management
 #rabbitmq:3.13.4-management
 #rabbitmq:3.12.14-management
 #rabbitmq:3.12.6-management
-phpmyadmin:5.2.1
+#phpmyadmin:5.2.1
 
 #joxit/docker-registry-ui:2.5.7
 
