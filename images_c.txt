@@ -5,12 +5,12 @@
 # 在远程存储的arm64镜像名为：curlimages_curl:8.8.0_arm64
 # 在远程存储的manifest镜像名为：curlimages_curl:8.8.0
 
-openeuler/openeuler:24.03-lts-sp1
-openeuler/openeuler:22.03-lts-sp4
-openeuler/openeuler:24.03-lts
-openeuler/openeuler:20.03-lts-sp4
-openeuler/openeuler:22.03-lts-sp3
-openeuler/openeuler:22.03-lts-sp1
+#openeuler/openeuler:24.03-lts-sp1
+#openeuler/openeuler:22.03-lts-sp4
+#openeuler/openeuler:24.03-lts
+#openeuler/openeuler:20.03-lts-sp4
+#openeuler/openeuler:22.03-lts-sp3
+#openeuler/openeuler:22.03-lts-sp1
 
 #zengxs/gitlab:17.5.1-ce.0
 
