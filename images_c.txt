@@ -48,9 +48,11 @@
 #openeuler/redis:7.4.1-oe2203sp3
 #openeuler/redis:7.4.1-oe2203sp1
 #openeuler/redis:7.4.1-oe2003sp4
+openeuler/redis:7.2.5-oe2203sp3
 #openeuler/tomcat:9.0.10-20.03-lts-sp1
 #openeuler/bisheng-jdk:1.8.0-oe2203lts
 #openeuler/bisheng-jdk:1.8.0-oe2203sp3
+openeuler/bisheng-jdk:17.0.10-oe2203sp3
 
 #enmotech/opengauss:6.0.0
 #enmotech/opengauss:5.0.3
