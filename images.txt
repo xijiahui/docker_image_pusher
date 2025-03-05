@@ -21,6 +21,23 @@
 #tomcat:10.1.36-jre17
 #tomcat:9.0.100-jre8
 
+## ---- dify 1.0.0 ---- ##
+# ubuntu/squid:latest
+ubuntu/squid:6.6-24.04_beta
+# postgres:15-alpine
+postgres:15.12-alpine3.21
+# nginx:latest
+nginx:1.27.4-bookworm
+# redis:6-alpine
+redis:6.2.17-alpine3.21
+semitechnologies/weaviate:1.19.0
+langgenius/dify-web:1.0.0
+langgenius/dify-sandbox:0.2.10
+langgenius/dify-plugin-daemon:0.0.3-local
+langgenius/dify-api:1.0.0
+## ---- dify 1.0.0 ---- ##
+
+
 #eclipse-temurin:17.0.14_7-jre
 #eclipse-temurin:17.0.14_7-jdk
 #eclipse-temurin:8u442-b06-jre
