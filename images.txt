@@ -21,7 +21,14 @@
 #tomcat:10.1.36-jre17
 #tomcat:9.0.100-jre8
 
-## ---- dify 1.0.0 ---- ##
+##### ----- Milvus 2.5.5 ----- #####
+quay.io/coreos/etcd:v3.5.18
+minio/minio:RELEASE.2023-03-20T20-16-18Z
+milvusdb/milvus:v2.5.5
+zilliz/attu:v2.5.5
+##### ----- Milvus 2.5.5 ----- #####
+
+##### ----- dify 1.0.0 ----- #####
 # ubuntu/squid:latest
 #ubuntu/squid:6.6-24.04_beta
 # postgres:15-alpine
@@ -35,7 +42,7 @@
 #langgenius/dify-sandbox:0.2.10
 #langgenius/dify-plugin-daemon:0.0.3-local
 #langgenius/dify-api:1.0.0
-## ---- dify 1.0.0 ---- ##
+##### ----- dify 1.0.0 ----- #####
 
 
 #eclipse-temurin:17.0.14_7-jre
