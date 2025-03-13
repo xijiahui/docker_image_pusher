@@ -21,11 +21,11 @@
 #busybox:1.37.0-glibc
 #tomcat:10.1.39-jre17
 #tomcat:9.0.102-jre8
-eclipse-temurin:17.0.14_7-jre
-eclipse-temurin:17.0.14_7-jdk
-eclipse-temurin:8u442-b06-jre
-eclipse-temurin:8u442-b06-jdk
-httpd:2.4.63
+#eclipse-temurin:17.0.14_7-jre
+#eclipse-temurin:17.0.14_7-jdk
+#eclipse-temurin:8u442-b06-jre
+#eclipse-temurin:8u442-b06-jdk
+#httpd:2.4.63
 
 #ollama/ollama:0.6.0
 
