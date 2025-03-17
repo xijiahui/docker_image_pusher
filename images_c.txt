@@ -55,8 +55,8 @@
 
 ### LIS 2023
 ##https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.8.4/deploy/static/provider/cloud/deploy.yaml
-registry.k8s.io/ingress-nginx/controller:v1.8.4
-registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20231011-8b53cabe0
+#registry.k8s.io/ingress-nginx/controller:v1.8.4
+#registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20231011-8b53cabe0
 
 ### LIS 2025
 #openeuler/tomcat:9.0.10-20.03-lts-sp1
