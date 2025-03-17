@@ -17,7 +17,7 @@
 #goharbor/harbor-db:v2.12.1
 #goharbor/prepare:v2.12.1
 
-### 中间版本
+### 中间版本(可删除)
 ##https://github.com/goharbor/harbor/releases/download/v2.12.0/harbor-online-installer-v2.12.0.tgz
 #goharbor/harbor-exporter:v2.12.0
 #goharbor/redis-photon:v2.12.0
@@ -32,7 +32,7 @@
 #goharbor/harbor-db:v2.12.0
 #goharbor/prepare:v2.12.0
 
-### 中间版本
+### 中间版本(可删除)
 ##https://github.com/goharbor/harbor/releases/download/v2.11.1/harbor-online-installer-v2.11.1.tgz
 #goharbor/harbor-exporter:v2.11.1
 #goharbor/redis-photon:v2.11.1
