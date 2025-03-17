@@ -5,9 +5,6 @@
 # 在远程存储的arm64镜像名为：curlimages_curl:8.8.0_arm64
 # 在远程存储的manifest镜像名为：curlimages_curl:8.8.0
 
-### 备用镜像(arm版本gitlab)
-#zengxs/gitlab:17.5.1-ce.0
-
 #testcontainers/ryuk:0.11.0
 #testcontainers/ryuk:0.10.2
 #testcontainers/ryuk:0.10.1
@@ -41,11 +38,11 @@
 #registry.k8s.io/ingress-nginx/controller:v1.8.4
 #registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20231011-8b53cabe0
 
-### LIS 2025
-#openeuler/tomcat:9.0.10-20.03-lts-sp1
-
 ### LIS 2025.1
 #openeuler/bisheng-jdk:17.0.10-oe2203sp3
+
+### LIS 2025
+#openeuler/tomcat:9.0.10-20.03-lts-sp1
 
 ### LIS 2025
 #openeuler/bisheng-jdk:1.8.0-oe2203sp3
@@ -67,3 +64,6 @@
 #enmotech/opengauss-lite:5.1.0
 #enmotech/opengauss-lite:5.0.2
 #enmotech/opengauss-lite:5.0.1
+
+### 备用 (arm版本gitlab)
+#zengxs/gitlab:17.5.1-ce.0
