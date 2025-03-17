@@ -17,36 +17,6 @@
 #goharbor/harbor-db:v2.12.1
 #goharbor/prepare:v2.12.1
 
-### 中间版本(可删除)
-##https://github.com/goharbor/harbor/releases/download/v2.12.0/harbor-online-installer-v2.12.0.tgz
-goharbor/harbor-exporter:v2.12.0
-#goharbor/redis-photon:v2.12.0
-#goharbor/trivy-adapter-photon:v2.12.0
-#goharbor/harbor-registryctl:v2.12.0
-#goharbor/registry-photon:v2.12.0
-#goharbor/nginx-photon:v2.12.0
-#goharbor/harbor-log:v2.12.0
-#goharbor/harbor-jobservice:v2.12.0
-#goharbor/harbor-core:v2.12.0
-#goharbor/harbor-portal:v2.12.0
-#goharbor/harbor-db:v2.12.0
-#goharbor/prepare:v2.12.0
-
-### 中间版本(可删除)
-##https://github.com/goharbor/harbor/releases/download/v2.11.1/harbor-online-installer-v2.11.1.tgz
-goharbor/harbor-exporter:v2.11.1
-#goharbor/redis-photon:v2.11.1
-#goharbor/trivy-adapter-photon:v2.11.1
-#goharbor/harbor-registryctl:v2.11.1
-#goharbor/registry-photon:v2.11.1
-#goharbor/nginx-photon:v2.11.1
-#goharbor/harbor-log:v2.11.1
-#goharbor/harbor-jobservice:v2.11.1
-#goharbor/harbor-core:v2.11.1
-#goharbor/harbor-portal:v2.11.1
-#goharbor/harbor-db:v2.11.1
-#goharbor/prepare:v2.11.1
-
 ### LIS 2025
 ##https://github.com/goharbor/harbor/releases/download/v2.11.0/harbor-online-installer-v2.11.0.tgz
 #goharbor/harbor-core:v2.11.0
