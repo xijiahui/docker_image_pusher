@@ -347,11 +347,14 @@
 #registry.k8s.io/pause:3.10
 #registry.k8s.io/etcd:3.5.16-0
 
-### CentOS7不升级内核支持最新镜像
+### CentOS7不升级内核下支持的最新镜像
 #registry.k8s.io/kube-apiserver:v1.31.6
 #registry.k8s.io/kube-controller-manager:v1.31.6
 #registry.k8s.io/kube-scheduler:v1.31.6
 #registry.k8s.io/kube-proxy:v1.31.6
+#registry.k8s.io/coredns/coredns:v1.11.3
+#registry.k8s.io/pause:3.10
+#registry.k8s.io/etcd:3.5.15-0
 
 ### LIS 2025.1
 #registry.k8s.io/kube-apiserver:v1.31.4
@@ -360,33 +363,6 @@
 #registry.k8s.io/kube-proxy:v1.31.4
 #registry.k8s.io/coredns/coredns:v1.11.3
 #registry.k8s.io/pause:3.10
-#registry.k8s.io/etcd:3.5.15-0
-
-### 中间版本
-#registry.k8s.io/kube-apiserver:v1.31.2
-#registry.k8s.io/kube-controller-manager:v1.31.2
-#registry.k8s.io/kube-scheduler:v1.31.2
-#registry.k8s.io/kube-proxy:v1.31.2
-#registry.k8s.io/coredns/coredns:v1.11.3
-#registry.k8s.io/pause:3.10
-#registry.k8s.io/etcd:3.5.15-0
-
-### 中间版本
-#registry.k8s.io/kube-apiserver:v1.31.0
-#registry.k8s.io/kube-controller-manager:v1.31.0
-#registry.k8s.io/kube-scheduler:v1.31.0
-#registry.k8s.io/kube-proxy:v1.31.0
-#registry.k8s.io/coredns/coredns:v1.11.3
-#registry.k8s.io/pause:3.10
-#registry.k8s.io/etcd:3.5.15-0
-
-### 中间版本
-#registry.k8s.io/kube-apiserver:v1.30.8
-#registry.k8s.io/kube-controller-manager:v1.30.8
-#registry.k8s.io/kube-scheduler:v1.30.8
-#registry.k8s.io/kube-proxy:v1.30.8
-#registry.k8s.io/coredns/coredns:v1.11.3
-#registry.k8s.io/pause:3.9
 #registry.k8s.io/etcd:3.5.15-0
 
 ### LIS 2025
@@ -411,7 +387,7 @@
 
 ### 最新版本
 ## https://github.com/flannel-io/flannel/releases/download/v0.26.5/kube-flannel.yml
-ghcr.io/flannel-io/flannel:v0.26.5
+#ghcr.io/flannel-io/flannel:v0.26.5
 #ghcr.io/flannel-io/flannel-cni-plugin:v1.6.2-flannel1
 
 ### LIS 2025.1
