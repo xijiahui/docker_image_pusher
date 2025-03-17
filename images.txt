@@ -410,34 +410,14 @@
 #registry.k8s.io/metrics-server/metrics-server:v0.7.1
 
 ### 最新版本
-## https://github.com/flannel-io/flannel/releases/download/v0.26.4/kube-flannel.yml
-#ghcr.io/flannel-io/flannel:v0.26.4
+## https://github.com/flannel-io/flannel/releases/download/v0.26.5/kube-flannel.yml
+ghcr.io/flannel-io/flannel:v0.26.5
 #ghcr.io/flannel-io/flannel-cni-plugin:v1.6.2-flannel1
-
-### 中间版本
-## https://github.com/flannel-io/flannel/releases/download/v0.26.3/kube-flannel.yml
-#flannel/flannel:v0.26.3
-#flannel/flannel-cni-plugin:v1.6.0-flannel1
 
 ### LIS 2025.1
 ## https://github.com/flannel-io/flannel/releases/download/v0.26.2/kube-flannel.yml
 #flannel/flannel:v0.26.2
 #flannel/flannel-cni-plugin:v1.6.0-flannel1
-
-### 中间版本
-## https://github.com/flannel-io/flannel/releases/download/v0.26.1/kube-flannel.yml
-#flannel/flannel:v0.26.1
-#flannel/flannel-cni-plugin:v1.5.1-flannel2
-
-### 中间版本
-## https://github.com/flannel-io/flannel/releases/download/v0.26.0/kube-flannel.yml
-#flannel/flannel:v0.26.0
-#flannel/flannel-cni-plugin:v1.5.1-flannel2
-
-### 中间版本
-## https://github.com/flannel-io/flannel/releases/download/v0.25.7/kube-flannel.yml
-#flannel/flannel:v0.25.7
-#flannel/flannel-cni-plugin:v1.5.1-flannel2
 
 ### LIS 2025
 ## https://github.com/flannel-io/flannel/releases/download/v0.25.4/kube-flannel.yml
@@ -464,5 +444,5 @@
 ### LIS 2025,2025.1
 #opengauss/opengauss:5.0.0
 
-### 备用镜像(nacos镜像生成使用)
+### 备用镜像 (nacos镜像生成使用)
 #buildpack-deps:buster-curl
