@@ -4,6 +4,7 @@
 # 在远程存储的arm64镜像名为：oracle_database:19.3.0-ee_arm64
 # 在远程存储的manifest镜像名为：oracle_database:19.3.0-ee
 
+### 最新版本
 #mysql:8.4.4
 #mysql:8.0.41
 #postgres:17.4
@@ -11,36 +12,28 @@
 #postgres:15.12
 #postgres:14.17
 #phpmyadmin:5.2.2
-
-### LIS 2025,2025.1
-#registry:2.8.3
-
 #redis:7.4.2
 #redis:7.2.7
 #redis:6.2.17
 #nginx:1.27.4
 #rabbitmq:4.0.7-management
 #rabbitmq:3.13.7-management
-
-### LIS 2023,2025,2025.1
-#busybox:1.37.0-glibc
-
 #tomcat:10.1.39-jre17
 #tomcat:9.0.102-jre8
-
-### 备用镜像
+#httpd:2.4.63
+#eclipse-temurin:8u442-b06-jre
+#eclipse-temurin:8u442-b06-jdk
 #eclipse-temurin:17.0.14_7-jre
 
-### LIS 2025.1
+### 最新版本，LIS 2025.1
 #eclipse-temurin:17.0.14_7-jdk
 
-### 备用镜像
-#eclipse-temurin:8u442-b06-jre
+### 最新版本，LIS 2025,2025.1
+#registry:2.8.3
 
-### 备用镜像
-#eclipse-temurin:8u442-b06-jdk
+### 最新版本，LIS 2023,2025,2025.1
+#busybox:1.37.0-glibc
 
-#httpd:2.4.63
 
 #ollama/ollama:0.6.0
 
@@ -67,17 +60,18 @@
 #langgenius/dify-api:1.0.0
 ##### ----- dify 1.0.0 ----- #####
 
+### 中间版本(可删除)
 #mysql:8.4.3
 #mysql:8.4.2
+#mysql:8.0.39
 
 ### LIS 2025.1
 #mysql:8.0.40
 
-#mysql:8.0.39
-
 ### LIS 2023,2025
 #mysql:8.0.34
 
+### 中间版本(可删除)
 #postgres:17.3
 #postgres:17.2
 #postgres:17.0
@@ -90,17 +84,40 @@
 #postgres:15.8
 #postgres:15.7
 #postgres:14.16
+#postgres:14.13
+#postgres:14.12
+#eclipse-temurin:8u432-b06-jre
+#eclipse-temurin:8u432-b06-jdk
+#eclipse-temurin:8u422-b05-jre
+#eclipse-temurin:8u412-b08-jre
+#tomcat:10.1.35-jre17
+#tomcat:9.0.100-jre8
+#tomcat:9.0.99-jre8
+#tomcat:9.0.98-jre8
+#tomcat:9.0.97-jre8
+#tomcat:9.0.96-jre8
+#tomcat:9.0.95-jre8
+#tomcat:9.0.93-jre8
+#nginx:1.27.3
+#nginx:1.27.2
+#nginx:1.27.1
+#nginx:1.27.0
+#redis:7.4.1
+#redis:7.4.0
+#redis:7.2.5
+#rabbitmq:4.0.6-management
+#rabbitmq:4.0.4-management
+#rabbitmq:4.0.2-management
+#rabbitmq:3.13.4-management
+#rabbitmq:3.12.14-management
 
 ### LIS 2025.1
 #postgres:14.15
 
-#postgres:14.13
-#postgres:14.12
-
 ### LIS 2023,2025
 #postgres:14.10
 
-### 最新版本
+### 最新版本 (生成oracle镜像使用)
 #adminer:4.8.1
 
 ### LIS 2025.1
@@ -112,51 +129,26 @@
 ### LIS 2022,2023,2025
 #openjdk:8-jre-slim
 
-### 中间版本
-#eclipse-temurin:8u432-b06-jre
-### 中间版本
-#eclipse-temurin:8u432-b06-jdk
-### 中间版本
-#eclipse-temurin:8u422-b05-jre
-### 中间版本
-#eclipse-temurin:8u412-b08-jre
-
 ### LIS 2022,2023,2025
 #eclipse-temurin:8u362-b09-jre
 
 ### LIS 2022,2023,2025
-eclipse-temurin:8u362-b09-jdk-centos7
+#eclipse-temurin:8u362-b09-jdk-centos7
 
 ### LIS 2025.1
 #tomcat:10.1.36-jre17
-### 中间版本
-#tomcat:10.1.35-jre17
-### 最新版本
-#tomcat:9.0.100-jre8
-### 中间版本
-#tomcat:9.0.99-jre8
-### 中间版本
-#tomcat:9.0.98-jre8
-### 中间版本
-#tomcat:9.0.97-jre8
-### 中间版本
-#tomcat:9.0.96-jre8
-### 中间版本
-#tomcat:9.0.95-jre8
-### 中间版本
-#tomcat:9.0.93-jre8
 
 ### LIS 2025
 #tomcat:9.0.91-jre8
 
-### 最新版本
+### 最后版本
 #tomcat:8.5.100-jre8
 
 ### LIS 2023
 #tomcat:8.5.93-jre8
 
 ### LIS 2022
-tomcat:8.5.87-jre8
+#tomcat:8.5.87-jre8
 
 ### LIS 2025.1
 #httpd:2.4.62
@@ -164,46 +156,17 @@ tomcat:8.5.87-jre8
 ### LIS 2025
 #httpd:2.4.61
 
-### 中间版本
-#redis:7.4.1
-### 中间版本
-#redis:7.4.0
-
 ### LIS 2025.1
 #redis:7.2.6
-
-### 中间版本
-#redis:7.2.5
 
 ### LIS 2023,2025
 #redis:7.2.1
 
 ## LIS 2022
-redis:5.0.14
-
-### 中间版本
-#nginx:1.27.3
-### 中间版本
-#nginx:1.27.2
-### 中间版本
-#nginx:1.27.1
-### 中间版本
-#nginx:1.27.0
-
-### 中间版本
-#rabbitmq:4.0.6-management
+#redis:5.0.14
 
 ### LIS 2025.1
 #rabbitmq:4.0.5-management
-
-### 中间版本
-#rabbitmq:4.0.4-management
-### 中间版本
-#rabbitmq:4.0.2-management
-### 中间版本
-#rabbitmq:3.13.4-management
-### 中间版本
-#rabbitmq:3.12.14-management
 
 ### LIS 2023,2025
 #rabbitmq:3.12.6-management
@@ -252,9 +215,9 @@ redis:5.0.14
 #nacos/nacos-server:v2.2.3-slim
 
 ### LIS 2022
-nacos/nacos-server:v2.2.1-slim
+#nacos/nacos-server:v2.2.1-slim
 ### LIS 2022
-nacos/nacos-server:v2.1.1-slim
+#nacos/nacos-server:v2.1.1-slim
 
 ### LIS 2025.1
 #apache/skywalking-java-agent:9.3.0-java17
@@ -483,14 +446,14 @@ nacos/nacos-server:v2.1.1-slim
 
 ### LIS 2023
 ## https://github.com/flannel-io/flannel/releases/download/v0.22.3/kube-flannel.yml
-flannel/flannel:v0.22.3
-flannel/flannel-cni-plugin:v1.2.0
+#flannel/flannel:v0.22.3
+#flannel/flannel-cni-plugin:v1.2.0
 
 ### LIS 2023,2025,2025.1
 #registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
 
 ### LIS 2022
-registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.0
+#registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.0
 
 ### LIS 2025,2025.1
 #xijiahui/adminer:4.8.1-oracle
