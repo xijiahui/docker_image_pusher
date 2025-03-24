@@ -4,6 +4,32 @@
 # 在远程存储的arm64镜像名为：oracle_database:19.3.0-ee_arm64
 # 在远程存储的manifest镜像名为：oracle_database:19.3.0-ee
 
+#ollama/ollama:0.6.0
+
+##### ----- Milvus 2.5.5 ----- #####
+#quay.io/coreos/etcd:v3.5.18
+#minio/minio:RELEASE.2023-03-20T20-16-18Z
+#milvusdb/milvus:v2.5.5
+#zilliz/attu:v2.5.5
+##### ----- Milvus 2.5.5 ----- #####
+
+##### ----- dify 1.0.0 ----- #####
+# ubuntu/squid:latest
+#ubuntu/squid:6.6-24.04_beta
+# postgres:15-alpine
+#postgres:15.12-alpine3.21
+# nginx:latest
+#nginx:1.27.4-bookworm
+# redis:6-alpine
+#redis:6.2.17-alpine3.21
+#semitechnologies/weaviate:1.19.0
+#langgenius/dify-web:1.0.0
+#langgenius/dify-sandbox:0.2.10
+#langgenius/dify-plugin-daemon:0.0.3-local
+#langgenius/dify-api:1.0.0
+##### ----- dify 1.0.0 ----- #####
+
+
 ### 最新版本
 #mysql:8.4.4
 #mysql:8.0.41
@@ -30,32 +56,6 @@
 #registry:2.8.3
 ### 最新版本，LIS 2023,2025,2025.1
 #busybox:1.37.0-glibc
-
-
-#ollama/ollama:0.6.0
-
-##### ----- Milvus 2.5.5 ----- #####
-#quay.io/coreos/etcd:v3.5.18
-#minio/minio:RELEASE.2023-03-20T20-16-18Z
-#milvusdb/milvus:v2.5.5
-#zilliz/attu:v2.5.5
-##### ----- Milvus 2.5.5 ----- #####
-
-##### ----- dify 1.0.0 ----- #####
-# ubuntu/squid:latest
-#ubuntu/squid:6.6-24.04_beta
-# postgres:15-alpine
-#postgres:15.12-alpine3.21
-# nginx:latest
-#nginx:1.27.4-bookworm
-# redis:6-alpine
-#redis:6.2.17-alpine3.21
-#semitechnologies/weaviate:1.19.0
-#langgenius/dify-web:1.0.0
-#langgenius/dify-sandbox:0.2.10
-#langgenius/dify-plugin-daemon:0.0.3-local
-#langgenius/dify-api:1.0.0
-##### ----- dify 1.0.0 ----- #####
 
 ### LIS 2025.1
 #mysql:8.0.40
@@ -105,8 +105,6 @@
 
 ### LIS 2023,2025,2025.1
 #phpmyadmin:5.2.1
-
-#joxit/docker-registry-ui:2.5.7
 
 ## https://container-registry.oracle.com/ords/ocr/ba/database/ords-developer
 ### LIS 2025.1
@@ -207,13 +205,6 @@
 ### LIS 2023
 ## K8s 1.28.2 相关镜像
 
-### 最新版本，备用镜像
-## https://github.com/kubernetes-sigs/metrics-server/releases/download/v0.7.2/components.yaml
-#registry.k8s.io/metrics-server/metrics-server:v0.7.2
-### 备用镜像
-## https://github.com/kubernetes-sigs/metrics-server/releases/download/v0.7.1/components.yaml
-#registry.k8s.io/metrics-server/metrics-server:v0.7.1
-
 ### 最新版本
 ## https://github.com/flannel-io/flannel/releases/download/v0.26.5/kube-flannel.yml
 #ghcr.io/flannel-io/flannel:v0.26.5
@@ -246,3 +237,14 @@
 
 ### 备用镜像 (nacos镜像生成使用)
 #buildpack-deps:buster-curl
+
+### 最新版本，备用镜像
+## https://github.com/kubernetes-sigs/metrics-server/releases/download/v0.7.2/components.yaml
+#registry.k8s.io/metrics-server/metrics-server:v0.7.2
+### 备用镜像
+## https://github.com/kubernetes-sigs/metrics-server/releases/download/v0.7.1/components.yaml
+#registry.k8s.io/metrics-server/metrics-server:v0.7.1
+
+### 可选镜像
+#joxit/docker-registry-ui:2.5.7
+
