@@ -160,9 +160,15 @@
 #prom/prometheus:v2.47.0
 
 ## https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html
+### 最新版本
+docker.elastic.co/elasticsearch/elasticsearch:8.17.4
+docker.elastic.co/beats/filebeat:8.17.4
+docker.elastic.co/beats/filebeat-wolfi:8.17.4
+docker.elastic.co/kibana/kibana:8.17.4
+docker.elastic.co/logstash/logstash:8.17.4
 ### LIS 2025.1
 #docker.elastic.co/elasticsearch/elasticsearch:8.17.0
-#docker.elastic.co/beats/filebeat:8.17.0
+#docker.elastic.co/beats/filebeat:8.17.0 #（这个版本存在bug无法正常启动）
 #docker.elastic.co/beats/filebeat-wolfi:8.17.0
 #docker.elastic.co/kibana/kibana:8.17.0
 #docker.elastic.co/logstash/logstash:8.17.0
