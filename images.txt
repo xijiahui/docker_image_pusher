@@ -4,8 +4,8 @@
 # 在远程存储的arm64镜像名为：oracle_database:19.3.0-ee_arm64
 # 在远程存储的manifest镜像名为：oracle_database:19.3.0-ee
 
-alpine:latest
-amir20/dozzle:latest
+alpine:3.21.3
+amir20/dozzle:8.11.9
 
 #ollama/ollama:0.6.0
 
