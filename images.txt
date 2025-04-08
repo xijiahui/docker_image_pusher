@@ -4,7 +4,7 @@
 # 在远程存储的arm64镜像名为：oracle_database:19.3.0-ee_arm64
 # 在远程存储的manifest镜像名为：oracle_database:19.3.0-ee
 
-jenkins/jenkins:2.492.3-lts-jdk17
+#jenkins/jenkins:2.492.3-lts-jdk17
 
 #alpine:3.21.3
 #amir20/dozzle:v8.11.9
@@ -245,8 +245,8 @@ jenkins/jenkins:2.492.3-lts-jdk17
 
 ### 最新版本,备用镜像 (生成oracle镜像使用)
 #adminer:4.8.1
-adminer:5.1.0
-adminer:4.17.1
+#adminer:5.1.0
+#adminer:4.17.1
 
 ### 备用镜像 (nacos镜像生成使用)
 #buildpack-deps:buster-curl
