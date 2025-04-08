@@ -59,6 +59,23 @@ jobs:
             echo "$1 过程耗时：$[($timeNext-$timeLast)/60]分$[($timeNext-$timeLast)%60]秒，累计耗时：$[($timeNext-$timeFirst)/60]分$[($timeNext-$timeFirst)%60]秒。    " `date`
             timeLast=$timeNext
         }
+        echo "=============================================================================="
+        docker images
+        echo "------------------------------------------------------------------------------"
+        df -hT
+        echo "=============================================================================="
+        
+        docker pull --platform=arm64 xijiahui/adminer:4.8.1-oracle
+        docker rmi xijiahui/adminer:4.8.1-oracle
+        
+        docker pull --platform=amd64 xijiahui/adminer:4.8.1-oracle
+        docker rmi xijiahui/adminer:4.8.1-oracle
+        echo "=============================================================================="
+        docker images
+        echo "------------------------------------------------------------------------------"
+        df -hT
+        echo "=============================================================================="
+        
         docker pull xijiahui/oracle_database:19.3.0-ee_x64
         echo "=============================================================================="
         docker images
