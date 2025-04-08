@@ -239,7 +239,7 @@
 #registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.0
 
 ### LIS 2025,2025.1
-#xijiahui/adminer:4.8.1-oracle
+xijiahui/adminer:4.8.1-oracle
 #xijiahui/oracle_database:19.3.0-ee
 #opengauss/opengauss:5.0.0
 
