@@ -36,13 +36,22 @@
 
 
 ### 最新版本
+# LIS 当前使用
+mysql:8.0.41
+# LIS 当前使用
+phpmyadmin:5.2.2
+### 最新版本，LIS 2025.1
+eclipse-temurin:17.0.14_7-jdk
+### 最新版本，LIS 2025,2025.1
+registry:2.8.3
+### 最新版本，LIS 2023,2025,2025.1
+busybox:1.37.0-glibc
+
 #mysql:8.4.4
-#mysql:8.0.41
 #postgres:17.4
 #postgres:16.8
 #postgres:15.12
 #postgres:14.17
-#phpmyadmin:5.2.2
 #redis:7.4.2
 #redis:7.2.7
 #redis:6.2.17
@@ -55,12 +64,6 @@
 #eclipse-temurin:8u442-b06-jre
 #eclipse-temurin:8u442-b06-jdk
 #eclipse-temurin:17.0.14_7-jre
-### 最新版本，LIS 2025.1
-#eclipse-temurin:17.0.14_7-jdk
-### 最新版本，LIS 2025,2025.1
-#registry:2.8.3
-### 最新版本，LIS 2023,2025,2025.1
-#busybox:1.37.0-glibc
 
 ### LIS 2025.1
 #mysql:8.0.40
