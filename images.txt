@@ -220,9 +220,9 @@
 ## K8s 1.28.2 相关镜像
 
 ### 最新版本
-## https://github.com/flannel-io/flannel/releases/download/v0.26.5/kube-flannel.yml
-#ghcr.io/flannel-io/flannel:v0.26.5
-#ghcr.io/flannel-io/flannel-cni-plugin:v1.6.2-flannel1
+## https://github.com/flannel-io/flannel/releases/download/v0.26.6/kube-flannel.yml
+ghcr.io/flannel-io/flannel:v0.26.6
+ghcr.io/flannel-io/flannel-cni-plugin:v1.6.2-flannel1
 ### LIS 2025.1
 ## https://github.com/flannel-io/flannel/releases/download/v0.26.2/kube-flannel.yml
 #flannel/flannel:v0.26.2
