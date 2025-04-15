@@ -66,12 +66,12 @@ jobs:
         echo "=============================================================================="
                 
         docker pull --platform=amd64 xijiahui/oracle_database:19.3.0-ee
-        docker rmi  xijiahui/oracle_database:19.3.0-ee_x64
+        docker rmi  xijiahui/oracle_database:19.3.0-ee
         echoTime "oracle_database:19.3.0-ee_x64"
         echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
         
         docker pull --platform=arm64 xijiahui/oracle_database:19.3.0-ee
-        docker rmi  xijiahui/oracle_database:19.3.0-ee_arm64
+        docker rmi  xijiahui/oracle_database:19.3.0-ee
         echoTime "oracle_database:19.3.0-ee_arm64"
         echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
        
