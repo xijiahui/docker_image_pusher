@@ -242,16 +242,12 @@
 #registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.0
 
 ### LIS 2025,2025.1
-#xijiahui/adminer:4.8.1-oracle
-#xijiahui/adminer:4.17.1-oracle
-#xijiahui/adminer:5.1.0-oracle
+xijiahui/adminer:4.8.1-oracle
+xijiahui/adminer:4.17.1-oracle
+xijiahui/adminer:5.1.0-oracle
+xijiahui/adminer:5.2.1-oracle
 #xijiahui/oracle_database:19.3.0-ee
 #opengauss/opengauss:5.0.0
-
-### 最新版本,备用镜像 (生成oracle镜像使用)
-#adminer:4.8.1
-#adminer:5.1.0
-#adminer:4.17.1
 
 ### 备用镜像 (nacos镜像生成使用)
 #buildpack-deps:buster-curl
