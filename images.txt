@@ -58,8 +58,10 @@
 #nginx:1.27.4
 #rabbitmq:4.0.7-management
 #rabbitmq:3.13.7-management
-#tomcat:10.1.39-jre17
-#tomcat:9.0.102-jre8
+tomcat:10.1.40-jdk17
+tomcat:10.1.40-jre17
+tomcat:9.0.104-jre8
+tomcat:9.0.102-jre8
 #httpd:2.4.63
 #eclipse-temurin:8u442-b06-jre
 #eclipse-temurin:8u442-b06-jdk
