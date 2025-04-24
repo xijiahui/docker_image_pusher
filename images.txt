@@ -134,8 +134,6 @@
 #nacos/nacos-server:v2.2.1-slim
 #nacos/nacos-server:v2.1.1-slim
 
-xuxueli/xxl-job-admin:3.0.0
-
 ### LIS 2025.1
 #apache/skywalking-java-agent:9.3.0-java17
 ### 最新版本，JDK8
