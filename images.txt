@@ -58,10 +58,9 @@
 #nginx:1.27.4
 #rabbitmq:4.0.7-management
 #rabbitmq:3.13.7-management
-tomcat:10.1.40-jdk17
-tomcat:10.1.40-jre17
-tomcat:9.0.104-jre8
-tomcat:9.0.102-jre8
+#tomcat:10.1.40-jdk17
+#tomcat:10.1.40-jre17
+#tomcat:9.0.104-jre8
 #httpd:2.4.63
 #eclipse-temurin:8u442-b06-jre
 #eclipse-temurin:8u442-b06-jdk
@@ -76,9 +75,9 @@ tomcat:9.0.102-jre8
 #postgres:14.10
 
 ### LIS 2025.1
-openjdk:21-jdk-slim
+#openjdk:21-jdk-slim
 ### 最新版本
-openjdk:17-jdk-slim
+#openjdk:17-jdk-slim
 
 ### LIS 2022,2023,2025
 #openjdk:8-jre-slim
@@ -223,8 +222,8 @@ openjdk:17-jdk-slim
 
 ### 最新版本
 ## https://github.com/flannel-io/flannel/releases/download/v0.26.6/kube-flannel.yml
-ghcr.io/flannel-io/flannel:v0.26.6
-ghcr.io/flannel-io/flannel-cni-plugin:v1.6.2-flannel1
+#ghcr.io/flannel-io/flannel:v0.26.6
+#ghcr.io/flannel-io/flannel-cni-plugin:v1.6.2-flannel1
 ### LIS 2025.1
 ## https://github.com/flannel-io/flannel/releases/download/v0.26.2/kube-flannel.yml
 #flannel/flannel:v0.26.2
