@@ -76,9 +76,9 @@ tomcat:9.0.102-jre8
 #postgres:14.10
 
 ### LIS 2025.1
-#openjdk:21-jdk-slim
+openjdk:21-jdk-slim
 ### 最新版本
-#openjdk:17-jdk-slim
+openjdk:17-jdk-slim
 
 ### LIS 2022,2023,2025
 #openjdk:8-jre-slim
