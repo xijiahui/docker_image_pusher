@@ -247,7 +247,7 @@
 #xijiahui/adminer:4.17.1-oracle
 #xijiahui/adminer:5.1.0-oracle
 #xijiahui/adminer:5.2.1-oracle
-xijiahui/adminer:5.3.0-oracle
+#xijiahui/adminer:5.3.0-oracle
 #xijiahui/oracle_database:19.3.0-ee
 #opengauss/opengauss:5.0.0
 
