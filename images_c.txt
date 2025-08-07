@@ -5,6 +5,12 @@
 # 在远程存储的arm64镜像名为：curlimages_curl:8.8.0_arm64
 # 在远程存储的manifest镜像名为：curlimages_curl:8.8.0
 
+curlimages/curl:8.15.0
+## https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.13.0/deploy/static/provider/cloud/deploy.yaml
+registry.k8s.io/ingress-nginx/controller:v1.13.0
+registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.0
+
+
 ##  -----  LIS 2025.1  -----  ##
 #curlimages/curl:8.11.1
 
