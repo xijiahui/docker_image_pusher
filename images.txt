@@ -4,14 +4,8 @@
 # 在远程存储的arm64镜像名为：oracle_database:19.3.0-ee_arm64
 # 在远程存储的manifest镜像名为：oracle_database:19.3.0-ee
 
-#apache/skywalking-java-agent:9.4.0-java17
-#apache/skywalking-oap-server:10.2.0
-#apache/skywalking-ui:10.2.0
-#docker.elastic.co/elasticsearch/elasticsearch:8.19.0
-#docker.elastic.co/beats/filebeat:8.19.0
-#docker.elastic.co/beats/filebeat-wolfi:8.19.0
-#docker.elastic.co/kibana/kibana:8.19.0
-#docker.elastic.co/logstash/logstash:8.19.0
+
+
 
 #jenkins/jenkins:2.492.3-lts-jdk17
 
@@ -143,6 +137,7 @@
 #nacos/nacos-server:v2.2.1-slim
 #nacos/nacos-server:v2.1.1-slim
 
+#apache/skywalking-java-agent:9.4.0-java17
 ### LIS 2025.1
 #apache/skywalking-java-agent:9.3.0-java17
 ### 最新版本，JDK8
@@ -158,6 +153,9 @@
 ### LIS 2023,2025,2025.1
 #redislabs/redisinsight:1.14.0
 
+#apache/skywalking-oap-server:10.2.0
+#apache/skywalking-ui:10.2.0
+
 ### LIS 2025.1
 #apache/skywalking-oap-server:10.1.0
 #apache/skywalking-ui:10.1.0
@@ -165,6 +163,9 @@
 ### LIS 2023,2025
 #apache/skywalking-oap-server:9.6.0
 #apache/skywalking-ui:9.6.0
+
+grafana/grafana:12.2.0-16791878397
+prom/prometheus:v3.5.0
 
 ### LIS 2025.1
 #grafana/grafana:11.4.0
@@ -176,6 +177,16 @@
 
 ## https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html
 ### 最新版本
+docker.elastic.co/elasticsearch/elasticsearch:9.1.0
+docker.elastic.co/beats/filebeat:9.1.0
+docker.elastic.co/beats/filebeat-wolfi:9.1.0
+docker.elastic.co/kibana/kibana:9.1.0
+docker.elastic.co/logstash/logstash:9.1.0
+#docker.elastic.co/elasticsearch/elasticsearch:8.19.0
+#docker.elastic.co/beats/filebeat:8.19.0
+#docker.elastic.co/beats/filebeat-wolfi:8.19.0
+#docker.elastic.co/kibana/kibana:8.19.0
+#docker.elastic.co/logstash/logstash:8.19.0
 #docker.elastic.co/elasticsearch/elasticsearch:8.17.4
 #docker.elastic.co/beats/filebeat:8.17.4
 #docker.elastic.co/beats/filebeat-wolfi:8.17.4
@@ -202,6 +213,10 @@
 #registry.k8s.io/pause:3.10
 #registry.k8s.io/etcd:3.5.16-0
 ### 最新镜像，支持CentOS7不升级内核下使用
+registry.k8s.io/kube-apiserver:v1.31.11
+registry.k8s.io/kube-controller-manager:v1.31.11
+registry.k8s.io/kube-scheduler:v1.31.11
+registry.k8s.io/kube-proxy:v1.31.11
 #registry.k8s.io/kube-apiserver:v1.31.7
 #registry.k8s.io/kube-controller-manager:v1.31.7
 #registry.k8s.io/kube-scheduler:v1.31.7
@@ -230,6 +245,9 @@
 ## K8s 1.28.2 相关镜像
 
 ### 最新版本
+## https://github.com/flannel-io/flannel/releases/download/v0.27.2/kube-flannel.yml
+ghcr.io/flannel-io/flannel:v0.27.2
+ghcr.io/flannel-io/flannel-cni-plugin:v1.7.1-flannel1
 ## https://github.com/flannel-io/flannel/releases/download/v0.26.6/kube-flannel.yml
 #ghcr.io/flannel-io/flannel:v0.26.6
 #ghcr.io/flannel-io/flannel-cni-plugin:v1.6.2-flannel1
@@ -264,6 +282,8 @@
 #buildpack-deps:buster-curl
 
 ### 最新版本，备用镜像
+## https://github.com/kubernetes-sigs/metrics-server/releases/download/v0.8.0/components.yaml
+registry.k8s.io/metrics-server/metrics-server:v0.8.0
 ## https://github.com/kubernetes-sigs/metrics-server/releases/download/v0.7.2/components.yaml
 #registry.k8s.io/metrics-server/metrics-server:v0.7.2
 ### 备用镜像
