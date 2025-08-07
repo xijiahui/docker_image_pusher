@@ -7,7 +7,7 @@
 #jenkins/jenkins:2.492.3-lts-jdk17
 
 #alpine:3.21.3
-amir20/dozzle:v8.13.8
+#amir20/dozzle:v8.13.8
 
 #ollama/ollama:0.6.0
 
