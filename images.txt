@@ -4,6 +4,15 @@
 # 在远程存储的arm64镜像名为：oracle_database:19.3.0-ee_arm64
 # 在远程存储的manifest镜像名为：oracle_database:19.3.0-ee
 
+apache/skywalking-java-agent:9.4.0-java17
+apache/skywalking-oap-server:10.2.0
+apache/skywalking-ui:10.2.0
+docker.elastic.co/elasticsearch/elasticsearch:8.19.0
+docker.elastic.co/beats/filebeat:8.19.0
+docker.elastic.co/beats/filebeat-wolfi:8.19.0
+docker.elastic.co/kibana/kibana:8.19.0
+docker.elastic.co/logstash/logstash:8.19.0
+
 #jenkins/jenkins:2.492.3-lts-jdk17
 
 #alpine:3.21.3
