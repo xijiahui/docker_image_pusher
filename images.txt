@@ -35,12 +35,12 @@
 
 ### 最新版本
 # LIS 当前使用
-mysql:8.0.43
+#mysql:8.0.43
 #mysql:8.0.41
 # LIS 当前使用
 #phpmyadmin:5.2.2
 ### 最新版本，LIS 2025.1
-clipse-temurin:17.0.16_8-jdk
+eclipse-temurin:17.0.16_8-jdk
 #eclipse-temurin:17.0.14_7-jdk
 ### 最新版本，LIS 2025,2025.1
 registry:3.0.0
