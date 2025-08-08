@@ -48,7 +48,7 @@
 ### 最新版本，LIS 2023,2025,2025.1
 #busybox:1.37.0-glibc
 
-
+### 最新版本
 #mysql:8.4.6
 #mysql:8.4.4
 #postgres:17.5
@@ -150,7 +150,8 @@
 ### LIS 2023,2025
 #dpage/pgadmin4:8.3
 
-nacos/nacos-server:v3.0.2-slim
+### 最新版本
+#nacos/nacos-server:v3.0.2-slim
 ### LIS 2025.1
 #nacos/nacos-server:v2.5.0-slim
 ### LIS 2023,2025
@@ -159,6 +160,7 @@ nacos/nacos-server:v3.0.2-slim
 #nacos/nacos-server:v2.2.1-slim
 #nacos/nacos-server:v2.1.1-slim
 
+### 最新版本
 #apache/skywalking-java-agent:9.4.0-java17
 ### LIS 2025.1
 #apache/skywalking-java-agent:9.3.0-java17
@@ -167,8 +169,10 @@ nacos/nacos-server:v3.0.2-slim
 ### LIS 2023,2025
 #apache/skywalking-java-agent:9.0.0-java8
 
-minio.RELEASE.2025-04-22T22-12-26Z
-minio-RELEASE.2021-04-22T15-44-28Z
+### 备用镜像（最后一个包括完整Web功能的版本）
+minio/minio:RELEASE.2025-04-22T22-12-26Z
+### 备用镜像（最后一个Apache2.0的版本）
+minio/minio:RELEASE.2021-04-22T15-44-28Z
 
 ### LIS 2025.1
 #minio/minio:RELEASE.2024-12-18T13-15-44Z
@@ -178,6 +182,7 @@ minio-RELEASE.2021-04-22T15-44-28Z
 ### LIS 2023,2025,2025.1
 #redislabs/redisinsight:1.14.0
 
+### 最新版本
 #apache/skywalking-oap-server:10.2.0
 #apache/skywalking-ui:10.2.0
 
@@ -189,6 +194,7 @@ minio-RELEASE.2021-04-22T15-44-28Z
 #apache/skywalking-oap-server:9.6.0
 #apache/skywalking-ui:9.6.0
 
+### 最新版本
 #grafana/grafana:12.2.0-16791878397
 #prom/prometheus:v3.5.0
 
@@ -207,11 +213,13 @@ minio-RELEASE.2021-04-22T15-44-28Z
 #docker.elastic.co/beats/filebeat-wolfi:9.1.0
 #docker.elastic.co/kibana/kibana:9.1.0
 #docker.elastic.co/logstash/logstash:9.1.0
+### 备用镜像
 #docker.elastic.co/elasticsearch/elasticsearch:8.19.0
 #docker.elastic.co/beats/filebeat:8.19.0
 #docker.elastic.co/beats/filebeat-wolfi:8.19.0
 #docker.elastic.co/kibana/kibana:8.19.0
 #docker.elastic.co/logstash/logstash:8.19.0
+### 备用镜像
 #docker.elastic.co/elasticsearch/elasticsearch:8.17.4
 #docker.elastic.co/beats/filebeat:8.17.4
 #docker.elastic.co/beats/filebeat-wolfi:8.17.4
@@ -229,7 +237,7 @@ minio-RELEASE.2021-04-22T15-44-28Z
 #docker.elastic.co/kibana/kibana:8.10.2
 #docker.elastic.co/logstash/logstash:8.10.2
 
-### 最新镜像
+### 最新版本 1.33
 registry.k8s.io/kube-apiserver:v1.33.3
 registry.k8s.io/kube-controller-manager:v1.33.3
 registry.k8s.io/kube-scheduler:v1.33.3
@@ -237,6 +245,7 @@ registry.k8s.io/kube-proxy:v1.33.3
 registry.k8s.io/coredns/coredns:v1.12.0
 registry.k8s.io/pause:3.10
 registry.k8s.io/etcd:3.5.21-0
+### 最新版本 1.32
 registry.k8s.io/kube-apiserver:v1.32.7
 registry.k8s.io/kube-controller-manager:v1.32.7
 registry.k8s.io/kube-scheduler:v1.32.7
@@ -248,7 +257,7 @@ registry.k8s.io/kube-proxy:v1.32.7
 #registry.k8s.io/coredns/coredns:v1.11.3
 #registry.k8s.io/pause:3.10
 #registry.k8s.io/etcd:3.5.16-0
-### 最新镜像，支持CentOS7不升级内核下使用
+### 最新镜像 1.31，支持CentOS7不升级内核下使用
 #registry.k8s.io/kube-apiserver:v1.31.11
 #registry.k8s.io/kube-controller-manager:v1.31.11
 #registry.k8s.io/kube-scheduler:v1.31.11
@@ -284,6 +293,7 @@ registry.k8s.io/kube-proxy:v1.32.7
 ## https://github.com/flannel-io/flannel/releases/download/v0.27.2/kube-flannel.yml
 #ghcr.io/flannel-io/flannel:v0.27.2
 #ghcr.io/flannel-io/flannel-cni-plugin:v1.7.1-flannel1
+### 备用镜像
 ## https://github.com/flannel-io/flannel/releases/download/v0.26.6/kube-flannel.yml
 #ghcr.io/flannel-io/flannel:v0.26.6
 #ghcr.io/flannel-io/flannel-cni-plugin:v1.6.2-flannel1
@@ -317,12 +327,12 @@ registry.k8s.io/kube-proxy:v1.32.7
 ### 备用镜像 (nacos镜像生成使用)
 #buildpack-deps:buster-curl
 
-### 最新版本，备用镜像
+### 最新版本
 ## https://github.com/kubernetes-sigs/metrics-server/releases/download/v0.8.0/components.yaml
 #registry.k8s.io/metrics-server/metrics-server:v0.8.0
+### 备用镜像
 ## https://github.com/kubernetes-sigs/metrics-server/releases/download/v0.7.2/components.yaml
 #registry.k8s.io/metrics-server/metrics-server:v0.7.2
-### 备用镜像
 ## https://github.com/kubernetes-sigs/metrics-server/releases/download/v0.7.1/components.yaml
 #registry.k8s.io/metrics-server/metrics-server:v0.7.1
 
