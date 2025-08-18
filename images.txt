@@ -4,7 +4,7 @@
 # 在远程存储的arm64镜像名为：oracle_database:19.3.0-ee_arm64
 # 在远程存储的manifest镜像名为：oracle_database:19.3.0-ee
 
-appbaseio/dejavu:3.8.3
+#appbaseio/dejavu:3.8.3
 
 #alpine:3.21.3
 #amir20/dozzle:v8.13.8
@@ -179,9 +179,9 @@ appbaseio/dejavu:3.8.3
 #apache/skywalking-java-agent:9.0.0-java8
 
 ### 备用镜像（最后一个包括完整Web功能的版本）
-minio/minio:RELEASE.2025-04-22T22-12-26Z
+#minio/minio:RELEASE.2025-04-22T22-12-26Z
 ### 备用镜像（最后一个Apache2.0的版本）
-minio/minio:RELEASE.2021-04-22T15-44-28Z
+#minio/minio:RELEASE.2021-04-22T15-44-28Z
 
 ### LIS 2025.1
 #minio/minio:RELEASE.2024-12-18T13-15-44Z
