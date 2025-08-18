@@ -8,9 +8,9 @@
 ### 最新版本
 #curlimages/curl:8.15.0
 
-## https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.13.0/deploy/static/provider/cloud/deploy.yaml
-registry.k8s.io/ingress-nginx/controller:v1.13.1
-registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.1
+## https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.13.1/deploy/static/provider/cloud/deploy.yaml
+#registry.k8s.io/ingress-nginx/controller:v1.13.1
+#registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.1
 ## https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.13.0/deploy/static/provider/cloud/deploy.yaml
 #registry.k8s.io/ingress-nginx/controller:v1.13.0
 #registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.0
