@@ -4,7 +4,8 @@
 # 在远程存储的arm64镜像名为：oracle_database:19.3.0-ee_arm64
 # 在远程存储的manifest镜像名为：oracle_database:19.3.0-ee
 
-tonistiigi/binfmt:qemu-v9.2.2
+#tonistiigi/binfmt:qemu-v9.2.2
+alpine:3.17.0
 
 #alpine:3.21.3
 #amir20/dozzle:v8.13.8
