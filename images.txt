@@ -161,6 +161,7 @@
 #dpage/pgadmin4:8.3
 
 ### 最新版本
+nacos/nacos-server:v3.0.3-slim
 #nacos/nacos-server:v3.0.2-slim
 ### LIS 2025.1
 #nacos/nacos-server:v2.5.0-slim
