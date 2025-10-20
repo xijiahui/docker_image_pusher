@@ -4,9 +4,6 @@
 # 在远程存储的arm64镜像名为：oracle_database:19.3.0-ee_arm64
 # 在远程存储的manifest镜像名为：oracle_database:19.3.0-ee
 
-selenium/standalone-chromium:4.37.0-20251020
-selenium/node-chromium:4.37.0-20251020
-selenium/hub:4.37.0-20251020
 #gotenberg/gotenberg:8.24.0
 #tonistiigi/binfmt:qemu-v9.2.2
 #alpine:3.17
@@ -165,7 +162,7 @@ selenium/hub:4.37.0-20251020
 #dpage/pgadmin4:8.3
 
 ### 最新版本
-nacos/nacos-server:v3.0.3-slim
+#nacos/nacos-server:v3.0.3-slim
 #nacos/nacos-server:v3.0.2-slim
 ### LIS 2025.1
 #nacos/nacos-server:v2.5.0-slim
