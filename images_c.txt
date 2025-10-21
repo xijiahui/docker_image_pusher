@@ -5,9 +5,9 @@
 # 在远程存储的arm64镜像名为：curlimages_curl:8.8.0_arm64
 # 在远程存储的manifest镜像名为：curlimages_curl:8.8.0
 
-selenium/standalone-chromium:4.37.0-20251020
-selenium/node-chromium:4.37.0-20251020
-selenium/hub:4.37.0-20251020
+#selenium/standalone-chromium:4.37.0-20251020
+#selenium/node-chromium:4.37.0-20251020
+#selenium/hub:4.37.0-20251020
 
 ### 最新版本
 #curlimages/curl:8.15.0
