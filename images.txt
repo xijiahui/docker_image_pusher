@@ -11,6 +11,7 @@
 #alpine:3.21.3
 #amir20/dozzle:v8.13.8
 
+ollama/ollama:0.12.6
 #ollama/ollama:0.6.0
 
 ##### ----- Milvus 2.5.5 ----- #####
