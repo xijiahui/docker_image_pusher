@@ -11,7 +11,8 @@
 #alpine:3.21.3
 #amir20/dozzle:v8.13.8
 
-ollama/ollama:0.12.7
+ghcr.io/speaches-ai/speaches:latest-cpu
+ollama/ollama:0.12.9
 #ollama/ollama:0.6.0
 
 ##### ----- Milvus 2.5.5 ----- #####
