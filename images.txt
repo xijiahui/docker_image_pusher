@@ -13,7 +13,7 @@
 #amir20/dozzle:v8.13.8
 
 #ghcr.io/speaches-ai/speaches:0.8.3-cpu
-ollama/ollama:0.13.4
+#ollama/ollama:0.13.4
 
 ##### ----- Milvus 2.5.5 ----- #####
 #quay.io/coreos/etcd:v3.5.18
