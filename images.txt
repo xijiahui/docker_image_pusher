@@ -4,13 +4,12 @@
 # 在远程存储的arm64镜像名为：oracle_database:19.3.0-ee_arm64
 # 在远程存储的manifest镜像名为：oracle_database:19.3.0-ee
 
-#willfarrell/autoheal:latest
-#gotenberg/gotenberg:8.24.0
-#tonistiigi/binfmt:qemu-v9.2.2
-#alpine:3.17
-
-#alpine:3.21.3
-#amir20/dozzle:v8.13.8
+gitlab/gitlab-ce:18.7.0-ce.0
+willfarrell/autoheal:1.2.0
+gotenberg/gotenberg:8.25.1
+tonistiigi/binfmt:qemu-v10.0.4
+alpine:3.23.2
+amir20/dozzle:v8.14
 
 #ghcr.io/speaches-ai/speaches:0.8.3-cpu
 #ollama/ollama:0.13.4
