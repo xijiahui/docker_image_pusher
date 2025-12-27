@@ -5,13 +5,20 @@
 # 在远程存储的arm64镜像名为：curlimages_curl:8.8.0_arm64
 # 在远程存储的manifest镜像名为：curlimages_curl:8.8.0
 
+selenium/standalone-chromium:4.39.0-20251212
+selenium/node-chromium:4.39.0-20251212
+selenium/hub:4.39.0-20251212
+
 #selenium/standalone-chromium:4.37.0-20251020
 #selenium/node-chromium:4.37.0-20251020
 #selenium/hub:4.37.0-20251020
 
 ### 最新版本
-#curlimages/curl:8.15.0
+curlimages/curl:8.17.0
 
+# https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.14.1/deploy/static/provider/cloud/deploy.yaml
+registry.k8s.io/ingress-nginx/controller:v1.14.1
+registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.5
 ## https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.13.1/deploy/static/provider/cloud/deploy.yaml
 #registry.k8s.io/ingress-nginx/controller:v1.13.1
 #registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.1
@@ -55,6 +62,9 @@
 
 ##  -----  备用（openeuler环境）  -----  ##
 #openeuler/mysql:8.3.0-oe2203sp3
+openeuler/redis:8.2.1-oe2403sp1
+openeuler/redis:8.0.2-oe2403sp1
+openeuler/redis:7.4.1-oe2403lts
 #openeuler/redis:7.4.1-oe2203sp3
 #openeuler/redis:7.2.5-oe2203sp3
 
@@ -70,10 +80,8 @@
 #enmotech/opengauss-lite:5.0.2
 #enmotech/opengauss-lite:5.0.1
 
-##  -----  备用 (arm版gitlab)  -----  ##
-#zengxs/gitlab:17.5.1-ce.0
-
 ##  -----  测试使用  -----  ##
+testcontainers/ryuk:0.14.0
 #testcontainers/ryuk:0.13.0
 #testcontainers/ryuk:0.12.0
 #testcontainers/ryuk:0.11.0
