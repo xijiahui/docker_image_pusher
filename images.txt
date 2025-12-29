@@ -39,45 +39,45 @@
 
 
 ### 最新版本
-mysql:8.0.44
+#mysql:8.0.44
 # LIS 当前使用
 #mysql:8.0.41
 # LIS 当前使用
-phpmyadmin:5.2.3
+#phpmyadmin:5.2.3
 ### 最新版本
-eclipse-temurin:17.0.17_10-jdk
+#eclipse-temurin:17.0.17_10-jdk
 ### 最新版本
 #registry:3.0.0
 ### 最新版本，LIS 2023,2025,2025.1
 #busybox:1.37.0-glibc
 
 ### 最新版本
-mysql:8.4.7
-postgres:18.1
-postgres:17.7
-postgres:16.11
-postgres:15.15
-postgres:14.20
-redis:8.4.0
-redis:8.2.3
-redis:8.0.5
-redis:7.4.7
-redis:7.2.12
-redis:6.2.21
-nginx:1.29.4
-nginx:1.28.1
-rabbitmq:4.2.2-management
-rabbitmq:4.1.7-management
-rabbitmq:4.0.9-management
-rabbitmq:3.13.7-management
-tomcat:10.1.50-jdk17
-tomcat:10.1.50-jre17
-tomcat:9.0.113-jre8
-tomcat:9.0.113-jdk8
-httpd:2.4.66
-eclipse-temurin:8u472-b08-jdk
-eclipse-temurin:8u472-b08-jre
-eclipse-temurin:17.0.17_10-jre
+#mysql:8.4.7
+#postgres:18.1
+#postgres:17.7
+#postgres:16.11
+#postgres:15.15
+#postgres:14.20
+#redis:8.4.0
+#redis:8.2.3
+#redis:8.0.5
+#redis:7.4.7
+#redis:7.2.12
+#redis:6.2.21
+#nginx:1.29.4
+#nginx:1.28.1
+#rabbitmq:4.2.2-management
+#rabbitmq:4.1.7-management
+#rabbitmq:4.0.9-management
+#rabbitmq:3.13.7-management
+#tomcat:10.1.50-jdk17
+#tomcat:10.1.50-jre17
+#tomcat:9.0.113-jre8
+#tomcat:9.0.113-jdk8
+#httpd:2.4.66
+#eclipse-temurin:8u472-b08-jdk
+#eclipse-temurin:8u472-b08-jre
+#eclipse-temurin:17.0.17_10-jre
 
 ### 备用镜像
 #mysql:8.4.4
