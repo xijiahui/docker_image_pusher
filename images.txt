@@ -157,14 +157,15 @@
 ### LIS 2025
 #container-registry.oracle.com/database/ords-developer:24.2.2
 
+### 最新版本
+dpage/pgadmin4:9.11.0
 ### LIS 2025.1
 #dpage/pgadmin4:8.14.0
 ### LIS 2023,2025
 #dpage/pgadmin4:8.3
 
 ### 最新版本
-#nacos/nacos-server:v3.0.3-slim
-#nacos/nacos-server:v3.0.2-slim
+nacos/nacos-server:v3.1.1-slim
 ### LIS 2025.1
 #nacos/nacos-server:v2.5.0-slim
 ### LIS 2023,2025
@@ -174,11 +175,10 @@
 #nacos/nacos-server:v2.1.1-slim
 
 ### 最新版本
-#apache/skywalking-java-agent:9.4.0-java17
+apache/skywalking-java-agent:9.5.0-java17
+apache/skywalking-java-agent:9.5.0-java8
 ### LIS 2025.1
 #apache/skywalking-java-agent:9.3.0-java17
-### 最新版本，JDK8
-#apache/skywalking-java-agent:9.3.0-java8
 ### LIS 2023,2025
 #apache/skywalking-java-agent:9.0.0-java8
 
@@ -196,8 +196,8 @@
 #redislabs/redisinsight:1.14.0
 
 ### 最新版本
-#apache/skywalking-oap-server:10.2.0
-#apache/skywalking-ui:10.2.0
+apache/skywalking-oap-server:10.3.0
+apache/skywalking-ui:10.3.0
 
 ### LIS 2025.1
 #apache/skywalking-oap-server:10.1.0
@@ -208,8 +208,8 @@
 #apache/skywalking-ui:9.6.0
 
 ### 最新版本
-#grafana/grafana:12.2.0-16791878397
-#prom/prometheus:v3.5.0
+grafana/grafana:12.4.0-20447603318
+prom/prometheus:v3.8.1
 
 ### LIS 2025.1
 #grafana/grafana:11.4.0
@@ -221,11 +221,11 @@
 
 ## https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html
 ### 最新版本
-#docker.elastic.co/elasticsearch/elasticsearch:9.1.0
-#docker.elastic.co/beats/filebeat:9.1.0
-#docker.elastic.co/beats/filebeat-wolfi:9.1.0
-#docker.elastic.co/kibana/kibana:9.1.0
-#docker.elastic.co/logstash/logstash:9.1.0
+docker.elastic.co/elasticsearch/elasticsearch:9.2.3
+docker.elastic.co/beats/filebeat:9.2.3
+docker.elastic.co/beats/filebeat-wolfi:9.2.3
+docker.elastic.co/kibana/kibana:9.2.3
+docker.elastic.co/logstash/logstash:9.2.3
 ### 备用镜像
 #docker.elastic.co/elasticsearch/elasticsearch:8.19.0
 #docker.elastic.co/beats/filebeat:8.19.0
@@ -254,13 +254,13 @@
 #
 
 ### 1.31 最后版本，支持CentOS7不升级内核下使用
-registry.k8s.io/kube-apiserver:v1.31.14
-registry.k8s.io/kube-controller-manager:v1.31.14
-registry.k8s.io/kube-scheduler:v1.31.14
-registry.k8s.io/kube-proxy:v1.31.14
-registry.k8s.io/coredns/coredns:v1.11.3
-registry.k8s.io/pause:3.10
-registry.k8s.io/etcd:3.5.24-0
+#registry.k8s.io/kube-apiserver:v1.31.14
+#registry.k8s.io/kube-controller-manager:v1.31.14
+#registry.k8s.io/kube-scheduler:v1.31.14
+#registry.k8s.io/kube-proxy:v1.31.14
+#registry.k8s.io/coredns/coredns:v1.11.3
+#registry.k8s.io/pause:3.10
+#registry.k8s.io/etcd:3.5.24-0
 ### LIS 2025.1
 #registry.k8s.io/kube-apiserver:v1.31.4
 #registry.k8s.io/kube-controller-manager:v1.31.4
@@ -283,8 +283,8 @@ registry.k8s.io/etcd:3.5.24-0
 
 ### 最新版本
 ## https://github.com/flannel-io/flannel/releases/download/v0.27.4/kube-flannel.yml
-ghcr.io/flannel-io/flannel:v0.27.4
-ghcr.io/flannel-io/flannel-cni-plugin:v1.8.0-flannel1
+#ghcr.io/flannel-io/flannel:v0.27.4
+#ghcr.io/flannel-io/flannel-cni-plugin:v1.8.0-flannel1
 ### 备用镜像
 ## https://github.com/flannel-io/flannel/releases/download/v0.26.6/kube-flannel.yml
 #ghcr.io/flannel-io/flannel:v0.26.6
