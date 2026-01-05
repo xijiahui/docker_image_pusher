@@ -4,6 +4,12 @@
 # 在远程存储的arm64镜像名为：oracle_database:19.3.0-ee_arm64
 # 在远程存储的manifest镜像名为：oracle_database:19.3.0-ee
 
+redmine:6.1.0-trixie
+openproject/openproject:16.6.3-slim
+postgres:13.23-trixie
+memcached:1.6.40-trixie
+caddy:2.10.2-alpine
+
 #gitlab/gitlab-ce:18.7.0-ce.0
 #willfarrell/autoheal:1.2.0
 #gotenberg/gotenberg:8.25.1
