@@ -42,8 +42,8 @@
 #gitlab/gitlab-ce:18.7.0-ce.0
 #willfarrell/autoheal:1.2.0
 #tonistiigi/binfmt:qemu-v10.0.4
-alpine:3.23.2
-amir20/dozzle:v8.14.12
+#alpine:3.23.2
+#amir20/dozzle:v8.14.12
 
 ### 最新版本
 #mysql:8.0.44
