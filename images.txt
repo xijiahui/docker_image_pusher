@@ -118,7 +118,7 @@
 #postgres:14.10
 
 ### xxl-job 建议使用 eclipse-temurin 代替 openjdk
-#eclipse-temurin:21.0.9_10-jdk-noble
+eclipse-temurin:21.0.9_10-jdk
 #openjdk:21-ea-jdk-slim
 ### LIS 2025.1
 #openjdk:21-jdk-slim
