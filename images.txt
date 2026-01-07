@@ -68,7 +68,6 @@
 #redis:8.4.0
 #redis:8.2.3
 #redis:8.0.5
-#redis:7.4.7
 #redis:7.2.12
 #redis:6.2.21
 #nginx:1.29.4
@@ -92,7 +91,6 @@
 #postgres:16.8
 #postgres:15.12
 #postgres:14.17
-#redis:7.4.2
 #redis:7.2.7
 #nginx:1.27.4
 #rabbitmq:4.0.7-management
