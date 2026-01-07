@@ -203,6 +203,7 @@ eclipse-temurin:21.0.9_10-jdk
 #minio/minio:RELEASE.2023-09-23T03-47-50Z
 
 ### LIS 2023,2025,2025.1
+redis/redisinsight:3.0.0
 #redislabs/redisinsight:1.14.0
 
 ### 最新版本
