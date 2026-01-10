@@ -4,6 +4,11 @@
 # 在远程存储的arm64镜像名为：oracle_database:19.3.0-ee_arm64
 # 在远程存储的manifest镜像名为：oracle_database:19.3.0-ee
 
+
+docker:29.1.4-dind-alpine3.23
+jenkins/jenkins:2.528.3-jdk21
+
+
 #redmine:6.1.0-trixie
 #openproject/openproject:16.6.3-slim
 #postgres:13.23-trixie
