@@ -5,8 +5,8 @@
 # 在远程存储的manifest镜像名为：oracle_database:19.3.0-ee
 
 
-docker:29.1.4-dind-alpine3.23
-jenkins/jenkins:2.528.3-jdk21
+#docker:29.1.4-dind-alpine3.23
+#jenkins/jenkins:2.528.3-jdk21
 
 
 #redmine:6.1.0-trixie
@@ -46,7 +46,7 @@ jenkins/jenkins:2.528.3-jdk21
 
 #gitlab/gitlab-ce:18.7.0-ce.0
 #willfarrell/autoheal:1.2.0
-tonistiigi/binfmt:qemu-v10.0.4-56
+#tonistiigi/binfmt:qemu-v10.0.4-56
 #alpine:3.23.2
 #amir20/dozzle:v8.14.12
 
@@ -123,7 +123,7 @@ tonistiigi/binfmt:qemu-v10.0.4-56
 #postgres:14.10
 
 ### xxl-job 建议使用 eclipse-temurin 代替 openjdk
-eclipse-temurin:21.0.9_10-jdk
+#eclipse-temurin:21.0.9_10-jdk
 #openjdk:21-ea-jdk-slim
 ### LIS 2025.1
 #openjdk:21-jdk-slim
