@@ -273,7 +273,13 @@ docker.elastic.co/logstash/logstash:8.19.9
 #docker.elastic.co/logstash/logstash:8.10.2
 
 ### 最新版本 1.35
-#
+registry.k8s.io/kube-apiserver:v1.35.0
+registry.k8s.io/kube-controller-manager:v1.35.0
+registry.k8s.io/kube-scheduler:v1.35.0
+registry.k8s.io/kube-proxy:v1.35.0
+registry.k8s.io/coredns/coredns:v1.13.1
+registry.k8s.io/pause:3.10.1
+registry.k8s.io/etcd:3.6.6-0
 
 ### 1.31 最后版本，支持CentOS7不升级内核下使用
 #registry.k8s.io/kube-apiserver:v1.31.14
