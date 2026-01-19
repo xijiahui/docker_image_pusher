@@ -5,7 +5,7 @@
 # 在远程存储的manifest镜像名为：oracle_database:19.3.0-ee
 
 
-iabsdocker/harbor:v2.14.2
+#iabsdocker/harbor:v2.14.2
 
 #docker:29.1.4-dind-alpine3.23
 #jenkins/jenkins:2.528.3-jdk21
