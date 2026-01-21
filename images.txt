@@ -4,6 +4,7 @@
 # 在远程存储的arm64镜像名为：oracle_database:19.3.0-ee_arm64
 # 在远程存储的manifest镜像名为：oracle_database:19.3.0-ee
 
+nginxdemos/nginx-hello:plain-text
 
 #iabsdocker/harbor:v2.14.2
 
