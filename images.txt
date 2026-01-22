@@ -16,7 +16,7 @@
 #ghcr.io/speaches-ai/speaches:0.8.3-cpu
 
 ### LIS 2026
-gotenberg/gotenberg:8.24.0
+#gotenberg/gotenberg:8.24.0
 
 ### LIS 2026
 #willfarrell/autoheal:1.2.0
