@@ -4,8 +4,6 @@
 # 在远程存储的arm64镜像名为：oracle_database:19.3.0-ee_arm64
 # 在远程存储的manifest镜像名为：oracle_database:19.3.0-ee
 
-nginxdemos/nginx-hello:plain-text
-
 #iabsdocker/harbor:v2.14.2
 
 #docker:29.1.4-dind-alpine3.23
@@ -14,7 +12,6 @@ nginxdemos/nginx-hello:plain-text
 
 #redmine:6.1.0-trixie
 #openproject/openproject:16.6.3-slim
-#postgres:13.23-trixie
 #memcached:1.6.40-trixie
 #caddy:2.10.2-alpine
 
@@ -34,10 +31,6 @@ nginxdemos/nginx-hello:plain-text
 ##### ----- dify 1.0.0 ----- #####
 # ubuntu/squid:latest
 #ubuntu/squid:6.6-24.04_beta
-# postgres:15-alpine
-#postgres:15.12-alpine3.21
-# nginx:latest
-#nginx:1.27.4-bookworm
 # redis:6-alpine
 #redis:6.2.17-alpine3.21
 #semitechnologies/weaviate:1.19.0
@@ -54,9 +47,6 @@ nginxdemos/nginx-hello:plain-text
 #amir20/dozzle:v8.14.12
 
 ### 最新版本
-#mysql:8.0.44
-# LIS 当前使用
-#mysql:8.0.41
 # LIS 当前使用
 #phpmyadmin:5.2.3
 ### 最新版本
@@ -67,44 +57,12 @@ nginxdemos/nginx-hello:plain-text
 #busybox:1.37.0-glibc
 
 ### 最新版本
-#mysql:8.4.7
-#postgres:18.1
-#postgres:17.7
-#postgres:16.11
-#postgres:15.15
-#postgres:14.20
-#redis:8.4.0
-#redis:8.2.3
-#redis:8.0.5
-#redis:7.2.12
-#redis:6.2.21
-#nginx:1.29.4
-#nginx:1.28.1
-#rabbitmq:4.2.2-management
-#rabbitmq:4.1.7-management
-#rabbitmq:4.0.9-management
-#rabbitmq:3.13.7-management
-#tomcat:10.1.50-jdk17
-#tomcat:10.1.50-jre17
-#tomcat:9.0.113-jre8
-#tomcat:9.0.113-jdk8
 #httpd:2.4.66
 #eclipse-temurin:8u472-b08-jdk
 #eclipse-temurin:8u472-b08-jre
 #eclipse-temurin:17.0.17_10-jre
 
 ### 备用镜像
-#mysql:8.4.4
-#postgres:17.4
-#postgres:16.8
-#postgres:15.12
-#postgres:14.17
-#redis:7.2.7
-#nginx:1.27.4
-#rabbitmq:4.0.7-management
-#rabbitmq:3.13.7-management
-#tomcat:10.1.40-jdk17
-#tomcat:9.0.104-jre8
 #httpd:2.4.63
 #eclipse-temurin:8u442-b06-jre
 #eclipse-temurin:8u442-b06-jdk
@@ -117,13 +75,13 @@ nginxdemos/nginx-hello:plain-text
 ### LIS 2025,2025.1
 #registry:2.8.3
 
-### LIS 2025.1
-#mysql:8.0.40
-#postgres:14.15
+### LIS 2026
+#mysql:8.4.7
+postgres:14.20
 
 ### LIS 2023,2025
 #mysql:8.0.34
-#postgres:14.10
+postgres:14.10
 
 ### LIS 2026
 #eclipse-temurin:21.0.9_10-jdk
@@ -134,31 +92,30 @@ nginxdemos/nginx-hello:plain-text
 #eclipse-temurin:8u362-b09-jre
 #eclipse-temurin:8u362-b09-jdk-centos7
 
-### LIS 2025.1
-#tomcat:10.1.36-jre17
+### LIS 2026
+#tomcat:10.1.50-jdk17
 ### LIS 2025
 #tomcat:9.0.91-jre8
-### 8.5 最后版本
-#tomcat:8.5.100-jre8
 ### LIS 2023
-#tomcat:8.5.93-jre8
+tomcat:8.5.93-jre8
 ### LIS 2022
-#tomcat:8.5.87-jre8
+tomcat:8.5.87-jre8
 
 ### LIS 2025.1
 #httpd:2.4.62
 
 ### LIS 2025
 #httpd:2.4.61
-### LIS 2025.1
-#redis:7.2.6
+
+### LIS 2026
+#redis:7.2.12
 ### LIS 2023,2025
 #redis:7.2.1
 ## LIS 2022
 #redis:5.0.14
 
-### LIS 2025.1
-#rabbitmq:4.0.5-management
+### LIS 2026
+#rabbitmq:4.2.2-management
 ### LIS 2023,2025
 #rabbitmq:3.12.6-management
 
@@ -178,31 +135,20 @@ nginxdemos/nginx-hello:plain-text
 ### LIS 2023,2025
 #dpage/pgadmin4:8.3
 
-### 最新版本
+### LIS 2026
 #nacos/nacos-server:v3.1.1-slim
-### LIS 2025.1
-#nacos/nacos-server:v2.5.0-slim
 ### LIS 2023,2025
 #nacos/nacos-server:v2.2.3-slim
 ### LIS 2022
 #nacos/nacos-server:v2.2.1-slim
-#nacos/nacos-server:v2.1.1-slim
 
-### 最新版本
+### LIS 2026
 #apache/skywalking-java-agent:9.5.0-java17
-#apache/skywalking-java-agent:9.5.0-java8
-### LIS 2025.1
-#apache/skywalking-java-agent:9.3.0-java17
 ### LIS 2023,2025
 #apache/skywalking-java-agent:9.0.0-java8
 
-### 备用镜像（最后一个包括完整Web功能的版本）
+### LIS 2026（最后一个包括完整Web功能的版本）
 #minio/minio:RELEASE.2025-04-22T22-12-26Z
-### 备用镜像（最后一个Apache2.0的版本）
-#minio/minio:RELEASE.2021-04-22T15-44-28Z
-
-### LIS 2025.1
-#minio/minio:RELEASE.2024-12-18T13-15-44Z
 ### LIS 2023,2025
 #minio/minio:RELEASE.2023-09-23T03-47-50Z
 
@@ -341,6 +287,8 @@ nginxdemos/nginx-hello:plain-text
 #xijiahui/adminer:5.2.1-oracle
 #xijiahui/adminer:5.3.0-oracle
 #xijiahui/oracle_database:19.3.0-ee
+
+### LIS 2025,2026
 #opengauss/opengauss:5.0.0
 
 ### 备用镜像 (nacos镜像生成使用)
