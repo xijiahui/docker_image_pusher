@@ -31,8 +31,6 @@
 ##### ----- dify 1.0.0 ----- #####
 # ubuntu/squid:latest
 #ubuntu/squid:6.6-24.04_beta
-# redis:6-alpine
-#redis:6.2.17-alpine3.21
 #semitechnologies/weaviate:1.19.0
 #langgenius/dify-web:1.0.0
 #langgenius/dify-sandbox:0.2.10
@@ -46,66 +44,40 @@
 #alpine:3.23.2
 #amir20/dozzle:v8.14.12
 
-### 最新版本
-# LIS 当前使用
-#phpmyadmin:5.2.3
-### 最新版本
-#eclipse-temurin:17.0.17_10-jdk
-### 最新版本
-#registry:3.0.0
 ### 最新版本，LIS 2023,2025,2025.1
 #busybox:1.37.0-glibc
 
-### 最新版本
+### LIS 2026
+#registry:3.0.0
 #httpd:2.4.66
-#eclipse-temurin:8u472-b08-jdk
-#eclipse-temurin:8u472-b08-jre
-#eclipse-temurin:17.0.17_10-jre
-
-### 备用镜像
-#httpd:2.4.63
-#eclipse-temurin:8u442-b06-jre
-#eclipse-temurin:8u442-b06-jdk
-#eclipse-temurin:17.0.14_7-jre
-
-
-### LIS 2025.1
-#eclipse-temurin:17.0.14_7-jdk
-
-### LIS 2025,2025.1
+### LIS 2025
 #registry:2.8.3
+#httpd:2.4.61
 
 ### LIS 2026
 #mysql:8.4.7
-postgres:14.20
-
+#postgres:14.20
 ### LIS 2023,2025
 #mysql:8.0.34
-postgres:14.10
+#postgres:14.10
 
 ### LIS 2026
-#eclipse-temurin:21.0.9_10-jdk
+eclipse-temurin:21.0.9_10-jdk
+#eclipse-temurin:17.0.14_7-jdk
+### LIS 2025
+#eclipse-temurin:8u362-b09-jdk-centos7
 
 ### LIS 2022,2023,2025
 #openjdk:8-jre-slim
-
-#eclipse-temurin:8u362-b09-jre
-#eclipse-temurin:8u362-b09-jdk-centos7
 
 ### LIS 2026
 #tomcat:10.1.50-jdk17
 ### LIS 2025
 #tomcat:9.0.91-jre8
 ### LIS 2023
-tomcat:8.5.93-jre8
+#tomcat:8.5.93-jre8
 ### LIS 2022
-tomcat:8.5.87-jre8
-
-### LIS 2025.1
-#httpd:2.4.62
-
-### LIS 2025
-#httpd:2.4.61
+#tomcat:8.5.87-jre8
 
 ### LIS 2026
 #redis:7.2.12
@@ -119,7 +91,10 @@ tomcat:8.5.87-jre8
 ### LIS 2023,2025
 #rabbitmq:3.12.6-management
 
-### LIS 2023,2025,2025.1
+
+# LIS 2026
+#phpmyadmin:5.2.3
+### LIS 2023,2025
 #phpmyadmin:5.2.1
 
 ## https://container-registry.oracle.com/ords/ocr/ba/database/ords-developer
@@ -128,10 +103,8 @@ tomcat:8.5.87-jre8
 ### LIS 2025
 #container-registry.oracle.com/database/ords-developer:24.2.2
 
-### 最新版本
+### LIS 2026
 #dpage/pgadmin4:9.11.0
-### LIS 2025.1
-#dpage/pgadmin4:8.14.0
 ### LIS 2023,2025
 #dpage/pgadmin4:8.3
 
@@ -152,72 +125,42 @@ tomcat:8.5.87-jre8
 ### LIS 2023,2025
 #minio/minio:RELEASE.2023-09-23T03-47-50Z
 
-### LIS 2023,2025,2025.1
-#redis/redisinsight:3.0.0
+### LIS 2023,2025,2026
 #redislabs/redisinsight:1.14.0
 
-### 最新版本
+### LIS 2026
 #apache/skywalking-oap-server:10.3.0
 #apache/skywalking-ui:10.3.0
-
-### LIS 2025.1
-#apache/skywalking-oap-server:10.1.0
-#apache/skywalking-ui:10.1.0
-
 ### LIS 2023,2025
 #apache/skywalking-oap-server:9.6.0
 #apache/skywalking-ui:9.6.0
 
-### 最新版本
+### LIS 2026
 #grafana/grafana:12.4.0-20447603318
 #prom/prometheus:v3.8.1
-
-### LIS 2025.1
-#grafana/grafana:11.4.0
-#prom/prometheus:v3.1.0
-
 ### LIS 2023,2025
 #grafana/grafana:10.1.2
 #prom/prometheus:v2.47.0
 
 ## https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html
-### 最新版本
+### LIS 2026
 #docker.elastic.co/elasticsearch/elasticsearch:9.2.3
 #docker.elastic.co/beats/filebeat:9.2.3
 #docker.elastic.co/beats/filebeat-wolfi:9.2.3
 #docker.elastic.co/kibana/kibana:9.2.3
 #docker.elastic.co/logstash/logstash:9.2.3
-### 备用镜像
 #docker.elastic.co/elasticsearch/elasticsearch:8.19.9
 #docker.elastic.co/beats/filebeat:8.19.9
 #docker.elastic.co/beats/filebeat-wolfi:8.19.9
 #docker.elastic.co/kibana/kibana:8.19.9
 #docker.elastic.co/logstash/logstash:8.19.9
-### 备用镜像
-#docker.elastic.co/elasticsearch/elasticsearch:8.19.0
-#docker.elastic.co/beats/filebeat:8.19.0
-#docker.elastic.co/beats/filebeat-wolfi:8.19.0
-#docker.elastic.co/kibana/kibana:8.19.0
-#docker.elastic.co/logstash/logstash:8.19.0
-### 备用镜像
-#docker.elastic.co/elasticsearch/elasticsearch:8.17.4
-#docker.elastic.co/beats/filebeat:8.17.4
-#docker.elastic.co/beats/filebeat-wolfi:8.17.4
-#docker.elastic.co/kibana/kibana:8.17.4
-#docker.elastic.co/logstash/logstash:8.17.4
-### LIS 2025.1
-#docker.elastic.co/elasticsearch/elasticsearch:8.17.0
-#docker.elastic.co/beats/filebeat:8.17.0 #（这个版本存在bug无法正常启动）
-#docker.elastic.co/beats/filebeat-wolfi:8.17.0
-#docker.elastic.co/kibana/kibana:8.17.0
-#docker.elastic.co/logstash/logstash:8.17.0
 ### LIS 2023,2025
 #docker.elastic.co/elasticsearch/elasticsearch:8.10.2
 #docker.elastic.co/beats/filebeat:8.10.2
 #docker.elastic.co/kibana/kibana:8.10.2
 #docker.elastic.co/logstash/logstash:8.10.2
 
-### 最新版本 1.35
+### LIS 2026
 #registry.k8s.io/kube-apiserver:v1.35.0
 #registry.k8s.io/kube-controller-manager:v1.35.0
 #registry.k8s.io/kube-scheduler:v1.35.0
@@ -225,8 +168,7 @@ tomcat:8.5.87-jre8
 #registry.k8s.io/coredns/coredns:v1.13.1
 #registry.k8s.io/pause:3.10.1
 #registry.k8s.io/etcd:3.6.6-0
-
-### 1.31 最后版本，支持CentOS7不升级内核下使用
+### LIS 2026
 #registry.k8s.io/kube-apiserver:v1.31.14
 #registry.k8s.io/kube-controller-manager:v1.31.14
 #registry.k8s.io/kube-scheduler:v1.31.14
@@ -234,14 +176,6 @@ tomcat:8.5.87-jre8
 #registry.k8s.io/coredns/coredns:v1.11.3
 #registry.k8s.io/pause:3.10
 #registry.k8s.io/etcd:3.5.24-0
-### LIS 2025.1
-#registry.k8s.io/kube-apiserver:v1.31.4
-#registry.k8s.io/kube-controller-manager:v1.31.4
-#registry.k8s.io/kube-scheduler:v1.31.4
-#registry.k8s.io/kube-proxy:v1.31.4
-#registry.k8s.io/coredns/coredns:v1.11.3
-#registry.k8s.io/pause:3.10
-#registry.k8s.io/etcd:3.5.15-0
 ### LIS 2025
 #registry.k8s.io/kube-apiserver:v1.30.2
 #registry.k8s.io/kube-controller-manager:v1.30.2
@@ -254,18 +188,10 @@ tomcat:8.5.87-jre8
 ### LIS 2023
 ## K8s 1.28.2 相关镜像
 
-### 最新版本
+### LIS 2026
 ## https://github.com/flannel-io/flannel/releases/download/v0.27.4/kube-flannel.yml
 #ghcr.io/flannel-io/flannel:v0.27.4
 #ghcr.io/flannel-io/flannel-cni-plugin:v1.8.0-flannel1
-### 备用镜像
-## https://github.com/flannel-io/flannel/releases/download/v0.26.6/kube-flannel.yml
-#ghcr.io/flannel-io/flannel:v0.26.6
-#ghcr.io/flannel-io/flannel-cni-plugin:v1.6.2-flannel1
-### LIS 2025.1
-## https://github.com/flannel-io/flannel/releases/download/v0.26.2/kube-flannel.yml
-#flannel/flannel:v0.26.2
-#flannel/flannel-cni-plugin:v1.6.0-flannel1
 ### LIS 2025
 ## https://github.com/flannel-io/flannel/releases/download/v0.25.4/kube-flannel.yml
 #flannel/flannel:v0.25.4
@@ -275,17 +201,16 @@ tomcat:8.5.87-jre8
 #flannel/flannel:v0.22.3
 #flannel/flannel-cni-plugin:v1.2.0
 
-### LIS 2023,2025,2025.1
+### LIS 2023,2025,2026
 #registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
 ### LIS 2022
 #registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.0
 
-### LIS 2025,2025.1
+### LIS 2026
+xijiahui/adminer:5.4.1-oracle
+### LIS 2025
 #xijiahui/adminer:4.8.1-oracle
-#xijiahui/adminer:4.17.1-oracle
-#xijiahui/adminer:5.1.0-oracle
-#xijiahui/adminer:5.2.1-oracle
-#xijiahui/adminer:5.3.0-oracle
+### LIS 2023,2025,2026
 #xijiahui/oracle_database:19.3.0-ee
 
 ### LIS 2025,2026
@@ -294,14 +219,12 @@ tomcat:8.5.87-jre8
 ### 备用镜像 (nacos镜像生成使用)
 #buildpack-deps:buster-curl
 
-### 最新版本
+### for k8s 1.31+
 ## https://github.com/kubernetes-sigs/metrics-server/releases/download/v0.8.0/components.yaml
 #registry.k8s.io/metrics-server/metrics-server:v0.8.0
-### 备用镜像
+### for k8s 1.27+
 ## https://github.com/kubernetes-sigs/metrics-server/releases/download/v0.7.2/components.yaml
 #registry.k8s.io/metrics-server/metrics-server:v0.7.2
-## https://github.com/kubernetes-sigs/metrics-server/releases/download/v0.7.1/components.yaml
-#registry.k8s.io/metrics-server/metrics-server:v0.7.1
 
 ### 可选镜像
 #joxit/docker-registry-ui:2.5.7

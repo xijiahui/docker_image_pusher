@@ -13,36 +13,23 @@
 #selenium/node-chromium:4.37.0-20251020
 #selenium/hub:4.37.0-20251020
 
-### 最新版本
-#curlimages/curl:8.17.0
 
 #ghcr.io/nginx/nginx-gateway-fabric:2.3.0
 #ghcr.io/nginx/nginx-gateway-fabric/nginx:2.3.0
 
-# https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.14.1/deploy/static/provider/cloud/deploy.yaml
-#registry.k8s.io/ingress-nginx/controller:v1.14.1
-#registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.5
-## https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.13.1/deploy/static/provider/cloud/deploy.yaml
-#registry.k8s.io/ingress-nginx/controller:v1.13.1
-#registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.1
-## https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.13.0/deploy/static/provider/cloud/deploy.yaml
-#registry.k8s.io/ingress-nginx/controller:v1.13.0
-#registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.0
 
-
-##  -----  LIS 2025.1  -----  ##
-#curlimages/curl:8.11.1
-
+##  -----  LIS 2026  -----  ##
+#curlimages/curl:8.17.0
 ##  -----  LIS 2025  -----  ##
 #curlimages/curl:8.8.0
 
 
 ### https://kubernetes.github.io/ingress-nginx/deploy/
 
-##  -----  LIS 2025.1  -----  ##
-##https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.12.0/deploy/static/provider/cloud/deploy.yaml
-#registry.k8s.io/ingress-nginx/controller:v1.12.0
-#registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.5.0
+##  -----  LIS 2026  -----  ##
+# https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.14.1/deploy/static/provider/cloud/deploy.yaml
+#registry.k8s.io/ingress-nginx/controller:v1.14.1
+#registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.5
 
 ##  -----  LIS 2025  -----  ##
 ##https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.10.1/deploy/static/provider/cloud/deploy.yaml
@@ -83,16 +70,6 @@
 #enmotech/opengauss-lite:5.0.2
 #enmotech/opengauss-lite:5.0.1
 
-##  -----  测试使用  -----  ##
-#testcontainers/ryuk:0.14.0
-#testcontainers/ryuk:0.13.0
+##  -----  LIS 2026  -----  ##
 #testcontainers/ryuk:0.12.0
 #testcontainers/ryuk:0.11.0
-#testcontainers/ryuk:0.10.2
-#testcontainers/ryuk:0.10.1
-#testcontainers/ryuk:0.10.0
-#testcontainers/ryuk:0.9.0
-#testcontainers/ryuk:0.8.1
-#testcontainers/ryuk:0.7.0
-#testcontainers/ryuk:0.6.0
-#testcontainers/ryuk:0.5.1
