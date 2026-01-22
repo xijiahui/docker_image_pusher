@@ -125,16 +125,12 @@ nginxdemos/nginx-hello:plain-text
 #mysql:8.0.34
 #postgres:14.10
 
-### xxl-job 建议使用 eclipse-temurin 代替 openjdk
+### LIS 2026
 #eclipse-temurin:21.0.9_10-jdk
-#openjdk:21-ea-jdk-slim
-### LIS 2025.1
-#openjdk:21-jdk-slim
-### 最新版本
-#openjdk:17-jdk-slim
 
 ### LIS 2022,2023,2025
 #openjdk:8-jre-slim
+
 #eclipse-temurin:8u362-b09-jre
 #eclipse-temurin:8u362-b09-jdk-centos7
 
