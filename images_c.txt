@@ -5,18 +5,19 @@
 # 在远程存储的arm64镜像名为：curlimages_curl:8.8.0_arm64
 # 在远程存储的manifest镜像名为：curlimages_curl:8.8.0
 
+### 新版
 #selenium/standalone-chromium:4.39.0-20251212
 #selenium/node-chromium:4.39.0-20251212
 #selenium/hub:4.39.0-20251212
 
-#selenium/standalone-chromium:4.37.0-20251020
-#selenium/node-chromium:4.37.0-20251020
-#selenium/hub:4.37.0-20251020
-
-
+### 新增
 #ghcr.io/nginx/nginx-gateway-fabric:2.3.0
 #ghcr.io/nginx/nginx-gateway-fabric/nginx:2.3.0
 
+### LIS 2026
+#selenium/standalone-chromium:4.37.0-20251020
+#selenium/node-chromium:4.37.0-20251020
+#selenium/hub:4.37.0-20251020
 
 ##  -----  LIS 2026  -----  ##
 #curlimages/curl:8.17.0
@@ -42,33 +43,16 @@
 #registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20231011-8b53cabe0
 
 
-##  -----  LIS 2025.1  -----  ##
+##  -----  LIS 2026  -----  ##
 #openeuler/bisheng-jdk:17.0.10-oe2203sp3
 
 ##  -----  LIS 2025  -----  ##
 #openeuler/tomcat:9.0.10-20.03-lts-sp1
 #openeuler/bisheng-jdk:1.8.0-oe2203sp3
 
-
 ##  -----  备用（openeuler环境）  -----  ##
 #openeuler/mysql:8.3.0-oe2203sp3
-#openeuler/redis:8.2.1-oe2403sp1
-#openeuler/redis:8.0.2-oe2403sp1
-#openeuler/redis:7.4.1-oe2403lts
-#openeuler/redis:7.4.1-oe2203sp3
 #openeuler/redis:7.2.5-oe2203sp3
-
-##  -----  备用（opengauss替代）  -----  ##
-#enmotech/opengauss:6.0.0
-#enmotech/opengauss:5.0.3
-#enmotech/opengauss:5.1.0
-#enmotech/opengauss:5.0.2
-#enmotech/opengauss:5.0.1
-#enmotech/opengauss:5.0.0
-#enmotech/opengauss-lite:5.0.3
-#enmotech/opengauss-lite:5.1.0
-#enmotech/opengauss-lite:5.0.2
-#enmotech/opengauss-lite:5.0.1
 
 ##  -----  LIS 2026  -----  ##
 #testcontainers/ryuk:0.12.0

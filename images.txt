@@ -4,47 +4,34 @@
 # 在远程存储的arm64镜像名为：oracle_database:19.3.0-ee_arm64
 # 在远程存储的manifest镜像名为：oracle_database:19.3.0-ee
 
-#iabsdocker/harbor:v2.14.2
-
-#docker:29.1.4-dind-alpine3.23
-#jenkins/jenkins:2.528.3-jdk21
-
-
-#redmine:6.1.0-trixie
-#openproject/openproject:16.6.3-slim
-#memcached:1.6.40-trixie
-#caddy:2.10.2-alpine
-
 #gotenberg/gotenberg:8.25.1
 
-
-#ghcr.io/speaches-ai/speaches:0.8.3-cpu
-#ollama/ollama:0.13.4
-
-##### ----- Milvus 2.5.5 ----- #####
-#quay.io/coreos/etcd:v3.5.18
-#minio/minio:RELEASE.2023-03-20T20-16-18Z
-#milvusdb/milvus:v2.5.5
-#zilliz/attu:v2.5.5
-##### ----- Milvus 2.5.5 ----- #####
-
-##### ----- dify 1.0.0 ----- #####
-# ubuntu/squid:latest
-#ubuntu/squid:6.6-24.04_beta
-#semitechnologies/weaviate:1.19.0
-#langgenius/dify-web:1.0.0
-#langgenius/dify-sandbox:0.2.10
-#langgenius/dify-plugin-daemon:0.0.3-local
-#langgenius/dify-api:1.0.0
-##### ----- dify 1.0.0 ----- #####
-
+#iabsdocker/harbor:v2.14.2
+#redmine:6.1.0-trixie
 #gitlab/gitlab-ce:18.7.0-ce.0
+
+
+### LIS 2026
+#ghcr.io/speaches-ai/speaches:0.8.3-cpu
+
+### LIS 2026
+gotenberg/gotenberg:8.24.0
+
+### LIS 2026
 #willfarrell/autoheal:1.2.0
+
+### LIS 2026
 #tonistiigi/binfmt:qemu-v10.0.4-56
+
+### LIS 2026
+#jenkins/jenkins:2.528.3-jdk21
+#docker:29.1.4-dind-alpine3.23
+
+### LIS 2026
 #alpine:3.23.2
 #amir20/dozzle:v8.14.12
 
-### 最新版本，LIS 2023,2025,2025.1
+### LIS 2023,2025,2026
 #busybox:1.37.0-glibc
 
 ### LIS 2026
@@ -62,7 +49,7 @@
 #postgres:14.10
 
 ### LIS 2026
-eclipse-temurin:21.0.9_10-jdk
+#eclipse-temurin:21.0.9_10-jdk
 #eclipse-temurin:17.0.14_7-jdk
 ### LIS 2025
 #eclipse-temurin:8u362-b09-jdk-centos7
@@ -98,7 +85,7 @@ eclipse-temurin:21.0.9_10-jdk
 #phpmyadmin:5.2.1
 
 ## https://container-registry.oracle.com/ords/ocr/ba/database/ords-developer
-### LIS 2025.1
+### LIS 2026
 #container-registry.oracle.com/database/ords-developer:24.4.0
 ### LIS 2025
 #container-registry.oracle.com/database/ords-developer:24.2.2
@@ -207,7 +194,7 @@ eclipse-temurin:21.0.9_10-jdk
 #registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.0
 
 ### LIS 2026
-xijiahui/adminer:5.4.1-oracle
+#xijiahui/adminer:5.4.1-oracle
 ### LIS 2025
 #xijiahui/adminer:4.8.1-oracle
 ### LIS 2023,2025,2026

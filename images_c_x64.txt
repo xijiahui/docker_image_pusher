@@ -2,21 +2,6 @@
 # 这个文件远程的镜像名为“namespace_name:tag”形式，只拉取x64镜像。
 # 如dockerhub上镜像名为：appropriate/curl:latest，在远程存储的镜像名为appropriate_curl:latest
 
-## -----  最新版本 -----  ##
-##https://github.com/goharbor/harbor/releases/download/v2.14.2/harbor-online-installer-v2.14.2.tgz
-#goharbor/harbor-exporter:v2.14.2
-#goharbor/redis-photon:v2.14.2
-#goharbor/trivy-adapter-photon:v2.14.2
-#goharbor/harbor-registryctl:v2.14.2
-#goharbor/registry-photon:v2.14.2
-#goharbor/nginx-photon:v2.14.2
-#goharbor/harbor-log:v2.14.2
-#goharbor/harbor-jobservice:v2.14.2
-#goharbor/harbor-core:v2.14.2
-#goharbor/harbor-portal:v2.14.2
-#goharbor/harbor-db:v2.14.2
-#goharbor/prepare:v2.14.2
-
 ## -----  LIS 2026 -----  ##
 ##https://github.com/goharbor/harbor/releases/download/v2.14.1/harbor-online-installer-v2.14.1.tgz
 #goharbor/harbor-exporter:v2.14.1
