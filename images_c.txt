@@ -42,6 +42,8 @@
 #registry.k8s.io/ingress-nginx/controller:v1.8.4
 #registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20231011-8b53cabe0
 
+##  -----  LIS 2027  -----  ##
+openeuler/bisheng-jdk:21.0.5-oe2203sp3
 
 ##  -----  LIS 2026  -----  ##
 #openeuler/bisheng-jdk:17.0.10-oe2203sp3
