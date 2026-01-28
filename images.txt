@@ -4,7 +4,7 @@
 # 在远程存储的arm64镜像名为：oracle_database:19.3.0-ee_arm64
 # 在远程存储的manifest镜像名为：oracle_database:19.3.0-ee
 
-ollama/ollama:0.15.2
+#ollama/ollama:0.15.2
 
 ### 新版
 #gotenberg/gotenberg:8.25.1
@@ -52,7 +52,7 @@ ollama/ollama:0.15.2
 #postgres:14.10
 
 ### LIS 2027
-eclipse-temurin:21.0.9_10-jdk
+#eclipse-temurin:21.0.9_10-jdk
 ### LIS 2026
 #eclipse-temurin:21.0.9_10-jdk
 #eclipse-temurin:17.0.14_7-jdk
@@ -63,7 +63,7 @@ eclipse-temurin:21.0.9_10-jdk
 #openjdk:8-jre-slim
 
 ### LIS 2027
-tomcat:10.1.50-jdk21
+#tomcat:10.1.50-jdk21
 ### LIS 2026
 #tomcat:10.1.50-jdk17
 ### LIS 2025
@@ -109,7 +109,7 @@ tomcat:10.1.50-jdk21
 #nacos/nacos-server:v2.2.1-slim
 
 ### LIS 2027
-apache/skywalking-java-agent:9.5.0-java21
+#apache/skywalking-java-agent:9.5.0-java21
 ### LIS 2026
 #apache/skywalking-java-agent:9.5.0-java17
 ### LIS 2023,2025
