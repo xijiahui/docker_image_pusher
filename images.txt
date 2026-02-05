@@ -4,7 +4,7 @@
 # 在远程存储的arm64镜像名为：oracle_database:19.3.0-ee_arm64
 # 在远程存储的manifest镜像名为：oracle_database:19.3.0-ee
 
-#ollama/ollama:0.15.2
+ollama/ollama:0.15.4
 
 ### 新版
 #gotenberg/gotenberg:8.25.1
