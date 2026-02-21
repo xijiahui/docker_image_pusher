@@ -12,7 +12,7 @@
 ### 工具
 #iabsdocker/harbor:v2.14.2
 #redmine:6.1.0-trixie
-gitlab/gitlab-ce:18.9.0-ce.0
+gitlab/gitlab-ce:18.8.4-ce.0
 
 ### LIS 2026
 #ghcr.io/speaches-ai/speaches:0.8.3-cpu
