@@ -40,18 +40,18 @@
 #docker.elastic.co/kibana/kibana:9.4.3
 #docker.elastic.co/logstash/logstash:9.4.3
 
-registry.k8s.io/kube-apiserver:v1.36.2
-registry.k8s.io/kube-controller-manager:v1.36.2
-registry.k8s.io/kube-scheduler:v1.36.2
-registry.k8s.io/kube-proxy:v1.36.2
-registry.k8s.io/coredns/coredns:v1.14.2
-registry.k8s.io/pause:3.10.2
-registry.k8s.io/etcd:3.6.8-0
+#registry.k8s.io/kube-apiserver:v1.36.2
+#registry.k8s.io/kube-controller-manager:v1.36.2
+#registry.k8s.io/kube-scheduler:v1.36.2
+#registry.k8s.io/kube-proxy:v1.36.2
+#registry.k8s.io/coredns/coredns:v1.14.2
+#registry.k8s.io/pause:3.10.2
+#registry.k8s.io/etcd:3.6.8-0
 ## https://github.com/flannel-io/flannel/releases/download/v0.28.7/kube-flannel.yml
-ghcr.io/flannel-io/flannel:v0.28.7
-ghcr.io/flannel-io/flannel-cni-plugin:v1.9.1-flannel2
+#ghcr.io/flannel-io/flannel:v0.28.7
+#ghcr.io/flannel-io/flannel-cni-plugin:v1.9.1-flannel2
 ## https://github.com/kubernetes-sigs/metrics-server/releases/download/v0.8.1/components.yaml
-registry.k8s.io/metrics-server/metrics-server:v0.8.1
+#registry.k8s.io/metrics-server/metrics-server:v0.8.1
 
 ### 工具
 #iabsdocker/harbor:v2.14.2
