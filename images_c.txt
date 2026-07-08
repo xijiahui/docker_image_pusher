@@ -6,7 +6,7 @@
 # 在远程存储的manifest镜像名为：curlimages_curl:8.8.0
 
 ### 新版
-hcr.io/nginx/nginx-gateway-fabric:2.6.6
+ghcr.io/nginx/nginx-gateway-fabric:2.6.6
 ghcr.io/nginx/nginx-gateway-fabric/nginx:2.6.6
 selenium/standalone-chromium:4.45.0-20260606
 selenium/node-chromium:4.45.0-20260606
