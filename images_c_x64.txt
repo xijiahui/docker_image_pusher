@@ -4,18 +4,18 @@
 
 ## 新版
 ##https://github.com/goharbor/harbor/releases/download/v2.15.2/harbor-online-installer-v2.15.2.tgz
-goharbor/harbor-exporter:v2.15.2
-goharbor/valkey-photon:v2.15.2
-goharbor/trivy-adapter-photon:v2.15.2
-goharbor/harbor-registryctl:v2.15.2
-goharbor/registry-photon:v2.15.2
-goharbor/nginx-photon:v2.15.2
-goharbor/harbor-log:v2.15.2
-goharbor/harbor-jobservice:v2.15.2
-goharbor/harbor-core:v2.15.2
-goharbor/harbor-portal:v2.15.2
-goharbor/harbor-db:v2.15.2
-goharbor/prepare:v2.15.2
+#goharbor/harbor-exporter:v2.15.2
+#goharbor/valkey-photon:v2.15.2
+#goharbor/trivy-adapter-photon:v2.15.2
+#goharbor/harbor-registryctl:v2.15.2
+#goharbor/registry-photon:v2.15.2
+#goharbor/nginx-photon:v2.15.2
+#goharbor/harbor-log:v2.15.2
+#goharbor/harbor-jobservice:v2.15.2
+#goharbor/harbor-core:v2.15.2
+#goharbor/harbor-portal:v2.15.2
+#goharbor/harbor-db:v2.15.2
+#goharbor/prepare:v2.15.2
 
 ## -----  LIS 2026 -----  ##
 ##https://github.com/goharbor/harbor/releases/download/v2.14.1/harbor-online-installer-v2.14.1.tgz
