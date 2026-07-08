@@ -6,9 +6,16 @@
 # 在远程存储的manifest镜像名为：curlimages_curl:8.8.0
 
 ### 新版
-#selenium/standalone-chromium:4.39.0-20251212
-#selenium/node-chromium:4.39.0-20251212
-#selenium/hub:4.39.0-20251212
+hcr.io/nginx/nginx-gateway-fabric:2.6.6
+ghcr.io/nginx/nginx-gateway-fabric/nginx:2.6.6
+selenium/standalone-chromium:4.45.0-20260606
+selenium/node-chromium:4.45.0-20260606
+selenium/hub:4.45.0-20260606
+curlimages/curl:8.21.0
+# https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.15.1/deploy/static/provider/cloud/deploy.yaml
+registry.k8s.io/ingress-nginx/controller:v1.15.1
+registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.9
+testcontainers/ryuk:0.14.0
 
 ### 新增
 #ghcr.io/nginx/nginx-gateway-fabric:2.3.0
