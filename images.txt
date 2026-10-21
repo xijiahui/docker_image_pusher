@@ -56,7 +56,6 @@
 ### 工具
 #iabsdocker/harbor:v2.14.2
 #redmine:6.1.0-trixie
-#gitlab/gitlab-ce:18.8.4-ce.0
 gitlab/gitlab-ce:18.11.12-ce.0
 gitlab/gitlab-ce:19.2.8-ce.0
 gitlab/gitlab-ce:19.5.0-ce.0
