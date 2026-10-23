@@ -54,9 +54,9 @@
 ### 工具
 #iabsdocker/harbor:v2.14.2
 #redmine:6.1.0-trixie
-gitlab/gitlab-ce:18.11.12-ce.0
-gitlab/gitlab-ce:19.2.8-ce.0
-gitlab/gitlab-ce:19.5.0-ce.0
+gitlab/gitlab-ce:18.11.13-ce.0
+gitlab/gitlab-ce:19.2.9-ce.0
+gitlab/gitlab-ce:19.5.1-ce.0
 
 ### LIS 2026
 #ghcr.io/speaches-ai/speaches:0.8.3-cpu
