@@ -17,7 +17,7 @@
 #busybox:1.38.0-glibc
 #registry:3.1.1
 #httpd:2.4.68
-#mysql:8.4.10
+mysql:8.4.13
 #postgres:14.23
 #eclipse-temurin:21.0.11_10-jdk
 #tomcat:10.1.56-jdk21
