@@ -4,6 +4,9 @@
 # 在远程存储的arm64镜像名为：oracle_database:19.3.0-ee_arm64
 # 在远程存储的manifest镜像名为：oracle_database:19.3.0-ee
 
+### 2026-12-03
+amir20/dozzle:v10.6.7
+
 ### 2026-11-02
 #mysql:8.4.13
 #tomcat:10.1.61-jdk21
@@ -17,7 +20,6 @@
 #jenkins/jenkins:2.572-jdk21
 #docker:29.6.1-dind-alpine3.24
 #alpine:3.24.1
-#amir20/dozzle:v10.6.7
 #busybox:1.38.0-glibc
 #registry:3.1.1
 #httpd:2.4.68
