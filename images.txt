@@ -5,7 +5,7 @@
 # 在远程存储的manifest镜像名为：oracle_database:19.3.0-ee
 
 ### 2026-12-03
-amir20/dozzle:v10.6.7
+amir20/dozzle:v11.4.0
 
 ### 2026-11-02
 #mysql:8.4.13
